@@ -1,0 +1,4 @@
+.DS_Store
+sftp.env
+node_modules/
+*.log
