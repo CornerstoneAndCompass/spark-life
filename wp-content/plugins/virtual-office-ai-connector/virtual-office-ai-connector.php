@@ -3,7 +3,7 @@
  * Plugin Name: MyMomo - Connector
  * Plugin URI: https://virtualofficeai.com.au
  * Description: Connect your WordPress site to MyMomo for AI-powered content management, SEO optimization, and site automation.
- * Version: 1.16.1
+ * Version: 1.16.2
  * Author: Cornerstone & Compass
  * Author URI: https://cornerstoneandcompass.com
  * License: GPL v2 or later
@@ -896,7 +896,36 @@ function voa_relax_framing_for_editor() {
 	if ( function_exists( 'header_remove' ) ) {
 		header_remove( 'X-Frame-Options' ); // best-effort if PHP set it
 	}
-	$ancestors = "frame-ancestors 'self' https://virtualofficeai.com.au https://*.virtualofficeai.com.au https://*.pages.dev";
+
+	// Every origin the MyMomo app is served from. The desktop shell loads
+	// https://mymomo.com.au, so leaving it out of this list is what makes the
+	// Live Editor render as a blank white panel on external sites — the browser
+	// refuses the frame and the app has no way to see that it happened.
+	// Keep the virtualofficeai.com.au entries: sites on an older connector and
+	// the API host both still answer there.
+	$origins = array(
+		'https://mymomo.com.au',
+		'https://*.mymomo.com.au',
+		'https://virtualofficeai.com.au',
+		'https://*.virtualofficeai.com.au',
+		'https://*.pages.dev',
+	);
+
+	// Filterable so a new app domain never again needs a plugin release to fix.
+	$origins = apply_filters( 'voa_frame_ancestors', $origins );
+
+	// Only scheme://host (optionally *.host, optionally :port) is allowed through.
+	// A filtered value containing a space or semicolon would otherwise let a caller
+	// append arbitrary CSP directives to this header.
+	$origins = array_values( array_filter( (array) $origins, function ( $origin ) {
+		return is_string( $origin )
+			&& preg_match( '#^https?://(\*\.)?[A-Za-z0-9.-]+(:[0-9]{1,5})?$#', $origin );
+	} ) );
+	if ( empty( $origins ) ) {
+		return;
+	}
+
+	$ancestors = "frame-ancestors 'self' " . implode( ' ', $origins );
 	header( "Content-Security-Policy: $ancestors", false );
 }
 

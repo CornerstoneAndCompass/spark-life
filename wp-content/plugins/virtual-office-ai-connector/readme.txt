@@ -138,6 +138,14 @@ Connection status is logged via the "Last Connection" transient in the admin pan
 
 == Changelog ==
 
+= 1.16.2 =
+* Fix: Live Editor rendered as a blank white panel on external sites. The desktop
+  app moved to mymomo.com.au, which was missing from the frame-ancestors allowlist,
+  so browsers refused the frame. Added the MyMomo origins.
+* frame-ancestors is now filterable via `voa_frame_ancestors`, so a future app
+  domain does not need a plugin release. Values are validated as scheme://host to
+  prevent extra CSP directives being injected through the filter.
+
 = 1.15.0 =
 * Merged behaviour insights beacon + config endpoint (previously only in the MyMomo bundled copy)
 * New AI visibility controls: serve /llms.txt and manage AI crawler rules in robots.txt, pushed from MyMomo
