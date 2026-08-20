@@ -230,7 +230,7 @@ function sl_service_column_content($col, $post_id) {
         $flags = array();
         if (sl_service_meta($post_id, 'featured') === '1') $flags[] = __('Featured', 'sparklife');
         if (sl_service_meta($post_id, 'accent') === '1')   $flags[] = __('Accent', 'sparklife');
-        echo esc_html($flags ? implode(' · ', $flags) : '—');
+        echo esc_html($flags ? implode(' · ', $flags) : '-');
     }
 }
 add_action('manage_service_posts_custom_column', 'sl_service_column_content', 10, 2);

@@ -31,7 +31,7 @@ sl_render_section('services_list', array(
 
 sl_render_section('cta_band', array(
     'title' => __('Not sure which one you need?', 'sparklife'),
-    'lead'  => __('Give us a bell — happy to talk it through and point you the right way.', 'sparklife'),
+    'lead'  => __('Give us a bell. Happy to talk it through and point you the right way.', 'sparklife'),
 ));
 ?>
 

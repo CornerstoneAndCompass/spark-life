@@ -485,17 +485,13 @@ ul,ol{list-style:none}
 .svc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .svc-card{
   display:grid;
-  grid-template-columns:auto auto 1fr auto;
-  align-items:center;gap:16px;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;gap:18px;
   background:var(--paper);border:1px solid var(--line);
   border-radius:var(--radius);padding:22px 24px;
   transition:transform .2s var(--ease),box-shadow .24s,border-color .2s;
 }
 .svc-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:transparent}
-.svc-card__num{
-  font-family:var(--font-display);font-style:italic;font-size:1.5rem;
-  color:var(--blue-wash);-webkit-text-stroke:1.2px var(--blue);line-height:1;
-}
 .svc-card__icon{
   width:46px;height:46px;flex:none;border-radius:12px;
   background:var(--blue-wash);color:var(--blue);display:grid;place-items:center;
@@ -950,8 +946,7 @@ ul,ol{list-style:none}
   .qform{padding:24px}
   .qform__row{grid-template-columns:1fr}
   .hero__trust li+li{padding-left:0;border-left:0}
-  .svc-card{grid-template-columns:auto 1fr auto;gap:12px}
-  .svc-card__num{display:none}
+  .svc-card{gap:14px}
   .callbar{display:flex}
   body{padding-bottom:52px}
 }

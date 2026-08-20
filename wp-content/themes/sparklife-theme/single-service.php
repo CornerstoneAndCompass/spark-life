@@ -49,7 +49,7 @@ get_header(); ?>
             'anchor'  => 'quote',
             'kicker'  => __('Free quote', 'sparklife'),
             'heading' => sprintf(__('Need a hand with %s?', 'sparklife'), get_the_title()),
-            'intro'   => __('Tell us what’s going on and we’ll come back to you with a clear, fixed price — usually within the hour during business times.', 'sparklife'),
+            'intro'   => __('Tell us what’s going on and we’ll come back with a clear, fixed price, usually within the hour during business times.', 'sparklife'),
             'preselect_service' => '1',
         ));
 

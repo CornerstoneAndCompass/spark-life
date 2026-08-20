@@ -99,7 +99,7 @@ $preselect = sl_on(sl_field($section_data, 'preselect_service', '1'), true) && i
       <p class="qform__note"><?php echo esc_html($form_note); ?></p>
       <?php endif; ?>
       <p class="qform__ok cform__success" hidden>
-        <?php esc_html_e('Thanks, we’ve got it — we’ll be in touch shortly.', 'sparklife'); ?>
+        <?php esc_html_e('Thanks, we’ve got it. We’ll be in touch shortly.', 'sparklife'); ?>
         <?php if ($phone) : ?>
         <?php printf(
           /* translators: %s: phone link. */

@@ -31,10 +31,10 @@
       "title": "Home",
       "parent": null,
       "menu_order": 0,
-      "excerpt": "Licensed residential electricians serving Frankston, Bayside and the Mornington Peninsula. Same-day call-outs, upfront pricing, fully insured. REC 27391.",
+      "excerpt": "Licensed residential electricians serving Frankston, Bayside and the Mornington Peninsula. Same day call-outs, upfront pricing, fully insured. REC 27391.",
       "seo": {
         "title": "Spark Life Electrical Contractors | Frankston Electrician",
-        "desc": "Licensed residential electricians serving Frankston, Bayside & the Mornington Peninsula. Same-day call-outs, upfront pricing, fully insured. REC 27391. Call 0402 028 871."
+        "desc": "Licensed residential electricians serving Frankston, Bayside & the Mornington Peninsula. Same day call-outs, upfront pricing, fully insured. REC 27391. Call 0402 028 871."
       },
       "sections": [
         {
@@ -43,7 +43,7 @@
             "eyebrow": "Frankston's friendly local sparkies",
             "title": "Power your home\nwithout the drama.",
             "title_highlight": "drama.",
-            "lead": "From a dodgy powerpoint to a full switchboard upgrade, Spark Life gets it sorted fast, tidy, and priced upfront. No surprises. No sparks flying (the bad kind, anyway).",
+            "lead": "From a dodgy powerpoint to a full switchboard upgrade, Spark Life gets it sorted fast, tidy, and priced upfront. No surprises, and no sparks flying (the bad kind, anyway).",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -84,9 +84,9 @@
           "data": {
             "bg": "white",
             "kicker": "What we do",
-            "heading": "Big jobs, small jobs, we light it all up.",
-            "heading_highlight": "we light it all up.",
-            "intro": "Residential electrical work across Frankston and the Peninsula. Done by hand, done right, cleaned up after.",
+            "heading": "What we get called out for.",
+            "heading_highlight": "called out for.",
+            "intro": "Residential electrical work across Frankston and the Peninsula. Done by hand, done right, and cleaned up after.",
             "limit": "7",
             "category": "",
             "note": "Not sure what you need?",
@@ -99,12 +99,12 @@
           "data": {
             "bg": "ink",
             "kicker": "Why Spark Life",
-            "heading": "Tradies you'd actually invite back for a cuppa.",
-            "intro": "We started Spark Life because too many people had a horror story about a sparky who never showed, never called, or left a mess. We're the opposite of that — and we keep it a little bit fun.",
+            "heading": "Why people call us back.",
+            "intro": "We started Spark Life because too many people had a story about a sparky who never showed, never called, or left a mess behind. Doing the opposite of that is most of the job.",
             "items": [
               {
                 "title": "On time, every time.",
-                "desc": "We text when we're on the way. No all-day \"windows\" where you write off a Tuesday waiting."
+                "desc": "We text when we're on the way. No all day window where you write off a Tuesday waiting."
               },
               {
                 "title": "Upfront fixed pricing.",
@@ -115,8 +115,8 @@
                 "desc": "Drop sheets down, mess taken with us, like we were never there."
               },
               {
-                "title": "Fully licensed & insured.",
-                "desc": "REC 27391, full public liability, and every job to AS/NZS 3000 wiring rules."
+                "title": "Fully licensed and insured.",
+                "desc": "REC 27391, full public liability, and every job to the AS/NZS 3000 wiring rules."
               }
             ],
             "stats": [
@@ -152,20 +152,20 @@
           "data": {
             "bg": "paper",
             "kicker": "How it works",
-            "heading": "Sorted in three simple steps.",
-            "heading_highlight": "simple steps.",
+            "heading": "How a job actually runs.",
+            "heading_highlight": "actually runs.",
             "steps": [
               {
                 "title": "Get in touch",
-                "desc": "Call, text, or fill in the form. Tell us what's going on — photos help if you've got them."
+                "desc": "Call, text, or fill in the form. Tell us what's going on. Photos help if you've got them."
               },
               {
                 "title": "Get your quote",
-                "desc": "We give you a clear, fixed price, usually within the hour. No obligation, no jargon."
+                "desc": "A clear fixed price, usually within the hour. No obligation and no jargon."
               },
               {
                 "title": "Get it done",
-                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back up."
+                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back on."
               }
             ]
           }
@@ -177,7 +177,7 @@
             "kicker": "Meet the team",
             "heading": "G'day, I'm Liam, your local sparky.",
             "heading_highlight": "your local sparky.",
-            "body": "Spark Life is a genuine local outfit, run out of Frankston and trusted right across the Mornington Peninsula. When you book us, you get me — a fully licensed electrician — not a faceless dispatch line.\n\nOur cheeky mascot says it best: we take the work dead seriously, but we don't take ourselves too seriously. Honest advice, quality work, and a friendly face at the door.",
+            "body": "Spark Life is a genuine local outfit, run out of Frankston and trusted right across the Mornington Peninsula. When you book us you get me, a fully licensed electrician, not a faceless dispatch line.\n\nI take the work dead seriously without taking myself too seriously. Honest advice, quality work, and a friendly face at the door.",
             "sticker": "Est. Frankston",
             "image_right": "0",
             "button_text": "More about us",
@@ -188,9 +188,10 @@
           "type": "reviews",
           "data": {
             "bg": "paper",
-            "kicker": "Don't take our word for it",
-            "heading": "Frankston locals love a good Spark Life.",
-            "heading_highlight": "love a good Spark Life.",
+            "kicker": "What people say",
+            "heading": "Reviews from around the Peninsula.",
+            "heading_highlight": "the Peninsula.",
+            "intro": "",
             "reviews": [
               {
                 "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
@@ -217,8 +218,8 @@
           "type": "service_areas",
           "data": {
             "kicker": "Where we work",
-            "heading": "Proudly covering the Mornington Peninsula.",
-            "intro": "Based in Frankston, on the road daily across the bayside suburbs. If you're nearby and not on the list, just ask — we probably still get there.",
+            "heading": "Frankston, Bayside and the Peninsula.",
+            "intro": "Based in Frankston and on the road across these suburbs daily. If you're nearby and not on the list, ask anyway. We probably still get there.",
             "suburbs": "Frankston\nFrankston South\nFrankston North\nSeaford\nCarrum Downs\nLangwarrin\nMount Eliza\nMornington\nMount Martha\nBaxter\nSkye\nSandhurst\nCranbourne\nSomerville\nKaringal\nChelsea"
           }
         },
@@ -230,7 +231,7 @@
             "kicker": "Free quote",
             "heading": "Let's get your place sorted.",
             "heading_highlight": "place sorted.",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to chat? Give us a bell.",
+            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to talk? Give us a bell.",
             "show_details": "1",
             "preselect_service": "0",
             "form_button_text": "Send my request ⚡",
@@ -247,27 +248,27 @@
             "faqs": [
               {
                 "question": "Do you charge a call-out fee?",
-                "answer": "We give you a clear, fixed price before any work starts, so you'll always know exactly what you're paying. No mystery fees added at the end."
+                "answer": "You get a clear fixed price before any work starts, so you always know exactly what you're paying. Nothing gets added at the end."
               },
               {
                 "question": "How fast can you get to me?",
-                "answer": "For urgent issues we offer same-day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
+                "answer": "For urgent issues we offer same day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
               },
               {
                 "question": "Are you licensed and insured?",
-                "answer": "Absolutely. Spark Life is a fully licensed electrical contractor (REC 27391) and carries full public liability insurance. Every job is completed to AS/NZS wiring standards."
+                "answer": "Yes. Spark Life is a fully licensed electrical contractor (REC 27391) carrying full public liability insurance, and every job is completed to the AS/NZS wiring standards."
               },
               {
                 "question": "Do you do small jobs, or just big ones?",
-                "answer": "Both. No job is too small — whether it's a single powerpoint or a full home rewire, it gets the same care and the same tidy finish."
+                "answer": "Both. No job is too small. A single powerpoint gets the same care and the same tidy finish as a full home rewire."
               },
               {
                 "question": "Do you guarantee your work?",
-                "answer": "Yes, 100%. We stand behind our workmanship and use quality materials. If something isn't right, we'll come back and make it right."
+                "answer": "Yes. We stand behind our workmanship and use quality materials. If something isn't right we come back and make it right."
               },
               {
                 "question": "Which suburbs do you cover?",
-                "answer": "Frankston and surrounds, the bayside suburbs and right down the Mornington Peninsula. If you're nearby and not on our list, ask — we probably still get there."
+                "answer": "Frankston and surrounds, the bayside suburbs, and right down the Mornington Peninsula. If you're nearby and not on our list, ask. We probably still get there."
               }
             ]
           }
@@ -275,8 +276,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Need a sparky this week?",
+            "lead": "Send through what's going on and we'll come back with a fixed price.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -290,7 +291,7 @@
       "title": "Services",
       "parent": null,
       "menu_order": 1,
-      "excerpt": "Every electrical service Spark Life offers across Frankston and the Mornington Peninsula — switchboards, lighting, powerpoints, EV chargers, safety inspections and more.",
+      "excerpt": "Every electrical service Spark Life offers across Frankston and the Mornington Peninsula, from switchboards and lighting to EV chargers and safety inspections.",
       "seo": {
         "title": "Electrical Services | Spark Life Electrical, Frankston",
         "desc": "Switchboard upgrades, LED lighting, powerpoints, EV chargers, safety inspections, smoke alarms and more across Frankston and the Mornington Peninsula. Call 0402 028 871."
@@ -300,8 +301,8 @@
           "type": "pagehero",
           "data": {
             "eyebrow": "What we do",
-            "title": "Every job we take on, in one place.",
-            "title_highlight": "in one place.",
+            "title": "The full list of what we do.",
+            "title_highlight": "what we do.",
             "lead": "Residential and light commercial electrical work across Frankston, Bayside and the Mornington Peninsula. Fixed prices, licensed work, tidy finish.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
@@ -322,7 +323,7 @@
             "kicker": "Our services",
             "heading": "Pick what you need, or just ask.",
             "heading_highlight": "or just ask.",
-            "intro": "Every service below is a full job, priced upfront. If what you need isn't listed, call us anyway — it's almost certainly something we do.",
+            "intro": "Every service below is a full job, priced upfront. If what you need isn't listed, call anyway. It's almost certainly something we do.",
             "limit": "0",
             "category": "",
             "exclude_current": "0"
@@ -333,20 +334,20 @@
           "data": {
             "bg": "paper",
             "kicker": "How it works",
-            "heading": "Sorted in three simple steps.",
-            "heading_highlight": "simple steps.",
+            "heading": "How a job actually runs.",
+            "heading_highlight": "actually runs.",
             "steps": [
               {
                 "title": "Get in touch",
-                "desc": "Call, text, or fill in the form. Tell us what's going on — photos help if you've got them."
+                "desc": "Call, text, or fill in the form. Tell us what's going on. Photos help if you've got them."
               },
               {
                 "title": "Get your quote",
-                "desc": "We give you a clear, fixed price, usually within the hour. No obligation, no jargon."
+                "desc": "A clear fixed price, usually within the hour. No obligation and no jargon."
               },
               {
                 "title": "Get it done",
-                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back up."
+                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back on."
               }
             ]
           }
@@ -356,12 +357,12 @@
           "data": {
             "bg": "ink",
             "kicker": "Why Spark Life",
-            "heading": "Tradies you'd actually invite back for a cuppa.",
-            "intro": "We started Spark Life because too many people had a horror story about a sparky who never showed, never called, or left a mess. We're the opposite of that — and we keep it a little bit fun.",
+            "heading": "Why people call us back.",
+            "intro": "We started Spark Life because too many people had a story about a sparky who never showed, never called, or left a mess behind. Doing the opposite of that is most of the job.",
             "items": [
               {
                 "title": "On time, every time.",
-                "desc": "We text when we're on the way. No all-day \"windows\" where you write off a Tuesday waiting."
+                "desc": "We text when we're on the way. No all day window where you write off a Tuesday waiting."
               },
               {
                 "title": "Upfront fixed pricing.",
@@ -372,8 +373,8 @@
                 "desc": "Drop sheets down, mess taken with us, like we were never there."
               },
               {
-                "title": "Fully licensed & insured.",
-                "desc": "REC 27391, full public liability, and every job to AS/NZS 3000 wiring rules."
+                "title": "Fully licensed and insured.",
+                "desc": "REC 27391, full public liability, and every job to the AS/NZS 3000 wiring rules."
               }
             ],
             "stats": [
@@ -412,7 +413,7 @@
             "kicker": "Free quote",
             "heading": "Not sure which one you need?",
             "heading_highlight": "which one you need?",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to chat? Give us a bell.",
+            "intro": "Describe the problem in your own words. We'll work out which job it is and what it costs.",
             "show_details": "1",
             "preselect_service": "0",
             "form_button_text": "Send my request ⚡",
@@ -429,23 +430,23 @@
             "faqs": [
               {
                 "question": "Do you charge a call-out fee?",
-                "answer": "We give you a clear, fixed price before any work starts, so you'll always know exactly what you're paying. No mystery fees added at the end."
+                "answer": "You get a clear fixed price before any work starts, so you always know exactly what you're paying. Nothing gets added at the end."
               },
               {
                 "question": "How fast can you get to me?",
-                "answer": "For urgent issues we offer same-day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
+                "answer": "For urgent issues we offer same day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
               },
               {
                 "question": "Are you licensed and insured?",
-                "answer": "Absolutely. Spark Life is a fully licensed electrical contractor (REC 27391) and carries full public liability insurance. Every job is completed to AS/NZS wiring standards."
+                "answer": "Yes. Spark Life is a fully licensed electrical contractor (REC 27391) carrying full public liability insurance, and every job is completed to the AS/NZS wiring standards."
               },
               {
                 "question": "Do you do small jobs, or just big ones?",
-                "answer": "Both. No job is too small — whether it's a single powerpoint or a full home rewire, it gets the same care and the same tidy finish."
+                "answer": "Both. No job is too small. A single powerpoint gets the same care and the same tidy finish as a full home rewire."
               },
               {
                 "question": "Do you guarantee your work?",
-                "answer": "Yes, 100%. We stand behind our workmanship and use quality materials. If something isn't right, we'll come back and make it right."
+                "answer": "Yes. We stand behind our workmanship and use quality materials. If something isn't right we come back and make it right."
               }
             ]
           }
@@ -453,8 +454,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Something on this list you need done?",
+            "lead": "Tell us which one and we'll come back with a fixed price.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -468,19 +469,19 @@
       "title": "About",
       "parent": null,
       "menu_order": 2,
-      "excerpt": "Spark Life is a genuine local electrical outfit run out of Frankston by Liam, a fully licensed electrician. Honest advice, quality work, and a friendly face at the door.",
+      "excerpt": "Spark Life is a local electrical outfit run out of Frankston by Liam, a fully licensed electrician. Honest advice, quality work, and a friendly face at the door.",
       "seo": {
         "title": "About Spark Life | Frankston Electrical Contractors",
-        "desc": "Spark Life is a local, family-run electrical contractor in Frankston. Licensed (REC 27391), fully insured, and trusted across the Mornington Peninsula."
+        "desc": "Spark Life is a local, family run electrical contractor in Frankston. Licensed (REC 27391), fully insured, and trusted across the Mornington Peninsula."
       },
       "sections": [
         {
           "type": "pagehero",
           "data": {
             "eyebrow": "Meet the team",
-            "title": "The sparkies behind Spark Life.",
-            "title_highlight": "behind Spark Life.",
-            "lead": "A genuine local outfit, run out of Frankston, trusted right across the Peninsula.",
+            "title": "Who turns up at your door.",
+            "title_highlight": "at your door.",
+            "lead": "A local outfit run out of Frankston, working right across the Peninsula.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -494,7 +495,7 @@
             "kicker": "The story",
             "heading": "G'day, I'm Liam.",
             "heading_highlight": "I'm Liam.",
-            "body": "I started Spark Life because I kept hearing the same story. Someone books a sparky, takes a day off work, and nobody turns up. Or they turn up, do the job, and leave a pile of plaster dust in the hallway and a bill nobody mentioned beforehand.\n\nNone of that is hard to fix. Text people when you're on your way. Quote the job before you start it. Put drop sheets down. Take your mess with you. That's the whole business plan, honestly.\n\nWhen you book Spark Life you get me — a fully licensed electrician (REC 27391) — not a dispatch line and whoever happened to be free. I'll tell you honestly when something can wait, and just as honestly when it can't.",
+            "body": "I started Spark Life because I kept hearing the same story. Someone books a sparky, takes a day off work, and nobody turns up. Or they turn up, do the job, and leave a pile of plaster dust in the hallway and a bill nobody mentioned beforehand.\n\nNone of that is hard to fix. Text people when you're on the way. Quote the job before you start it. Put drop sheets down. Take your mess with you. That's most of the business plan, honestly.\n\nWhen you book Spark Life you get me, a fully licensed electrician (REC 27391), not a dispatch line and whoever happened to be free. I'll tell you honestly when something can wait, and just as honestly when it can't.",
             "sticker": "Est. Frankston",
             "image_right": "0"
           }
@@ -504,12 +505,12 @@
           "data": {
             "bg": "ink",
             "kicker": "Why Spark Life",
-            "heading": "Tradies you'd actually invite back for a cuppa.",
-            "intro": "We started Spark Life because too many people had a horror story about a sparky who never showed, never called, or left a mess. We're the opposite of that — and we keep it a little bit fun.",
+            "heading": "Why people call us back.",
+            "intro": "We started Spark Life because too many people had a story about a sparky who never showed, never called, or left a mess behind. Doing the opposite of that is most of the job.",
             "items": [
               {
                 "title": "On time, every time.",
-                "desc": "We text when we're on the way. No all-day \"windows\" where you write off a Tuesday waiting."
+                "desc": "We text when we're on the way. No all day window where you write off a Tuesday waiting."
               },
               {
                 "title": "Upfront fixed pricing.",
@@ -520,8 +521,8 @@
                 "desc": "Drop sheets down, mess taken with us, like we were never there."
               },
               {
-                "title": "Fully licensed & insured.",
-                "desc": "REC 27391, full public liability, and every job to AS/NZS 3000 wiring rules."
+                "title": "Fully licensed and insured.",
+                "desc": "REC 27391, full public liability, and every job to the AS/NZS 3000 wiring rules."
               }
             ],
             "stats": [
@@ -563,20 +564,20 @@
           "data": {
             "bg": "paper",
             "kicker": "How it works",
-            "heading": "Sorted in three simple steps.",
-            "heading_highlight": "simple steps.",
+            "heading": "How a job actually runs.",
+            "heading_highlight": "actually runs.",
             "steps": [
               {
                 "title": "Get in touch",
-                "desc": "Call, text, or fill in the form. Tell us what's going on — photos help if you've got them."
+                "desc": "Call, text, or fill in the form. Tell us what's going on. Photos help if you've got them."
               },
               {
                 "title": "Get your quote",
-                "desc": "We give you a clear, fixed price, usually within the hour. No obligation, no jargon."
+                "desc": "A clear fixed price, usually within the hour. No obligation and no jargon."
               },
               {
                 "title": "Get it done",
-                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back up."
+                "desc": "We turn up on time, do the job properly, tidy up, and you're powered back on."
               }
             ]
           }
@@ -585,20 +586,21 @@
           "type": "text_block",
           "data": {
             "bg": "white",
-            "kicker": "Licensing & insurance",
+            "kicker": "Licensing and insurance",
             "heading": "The boring but important bit.",
             "heading_highlight": "important bit.",
             "max_width": "normal",
-            "content": "<p>Spark Life Electrical Contractors is a Registered Electrical Contractor in Victoria — <strong>REC 27391</strong> — and carries full public liability insurance.</p><p>Every job we complete is wired to the AS/NZS 3000 wiring rules and issued with a Certificate of Electrical Safety. You get a copy; so does the electrical safety regulator. It's the document that proves the work in your home was done properly, and it's the one thing an insurer will ask for if you ever need to claim.</p><p>If any electrician can't produce a REC number and a certificate, that should end the conversation.</p>"
+            "content": "<p>Spark Life Electrical Contractors is a Registered Electrical Contractor in Victoria, <strong>REC 27391</strong>, carrying full public liability insurance.</p><p>Every job we complete is wired to the AS/NZS 3000 wiring rules and issued with a Certificate of Electrical Safety. You get a copy and so does the electrical safety regulator. It's the document that proves the work in your home was done properly, and it's the one thing an insurer will ask for if you ever need to claim.</p><p>If an electrician can't produce a REC number and a certificate, that should end the conversation.</p>"
           }
         },
         {
           "type": "reviews",
           "data": {
             "bg": "paper",
-            "kicker": "Don't take our word for it",
-            "heading": "Frankston locals love a good Spark Life.",
-            "heading_highlight": "love a good Spark Life.",
+            "kicker": "What people say",
+            "heading": "Six recent jobs, in their words.",
+            "heading_highlight": "in their words.",
+            "intro": "",
             "reviews": [
               {
                 "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
@@ -643,16 +645,16 @@
           "type": "service_areas",
           "data": {
             "kicker": "Where we work",
-            "heading": "Proudly covering the Mornington Peninsula.",
-            "intro": "Based in Frankston, on the road daily across the bayside suburbs. If you're nearby and not on the list, just ask — we probably still get there.",
+            "heading": "Frankston, Bayside and the Peninsula.",
+            "intro": "Based in Frankston and on the road across these suburbs daily. If you're nearby and not on the list, ask anyway. We probably still get there.",
             "suburbs": "Frankston\nFrankston South\nFrankston North\nSeaford\nCarrum Downs\nLangwarrin\nMount Eliza\nMornington\nMount Martha\nBaxter\nSkye\nSandhurst\nCranbourne\nSomerville\nKaringal\nChelsea"
           }
         },
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Want us to take a look?",
+            "lead": "Tell us what's going on and we'll give you a straight answer.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -666,10 +668,10 @@
       "title": "Projects",
       "parent": null,
       "menu_order": 3,
-      "excerpt": "A look at recent electrical work across Frankston and the Mornington Peninsula — switchboard upgrades, full rewires, EV chargers and lighting.",
+      "excerpt": "Recent electrical work across Frankston and the Mornington Peninsula, including switchboard upgrades, full rewires, EV chargers and whole home lighting.",
       "seo": {
         "title": "Recent Work | Spark Life Electrical, Frankston",
-        "desc": "Recent electrical jobs across Frankston and the Mornington Peninsula — switchboard upgrades, full rewires, EV charger installs and whole-home LED lighting."
+        "desc": "Recent electrical jobs across Frankston and the Mornington Peninsula, including switchboard upgrades, full rewires, EV charger installs and whole home LED lighting."
       },
       "sections": [
         {
@@ -678,7 +680,7 @@
             "eyebrow": "Our work",
             "title": "Recent jobs around the Peninsula.",
             "title_highlight": "around the Peninsula.",
-            "lead": "A few of the jobs we've had on lately, and what was actually involved.",
+            "lead": "A few of the jobs we've had on lately, and what was actually involved in each.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -690,8 +692,8 @@
           "data": {
             "bg": "white",
             "kicker": "Gallery",
-            "heading": "On the tools.",
-            "heading_highlight": "the tools.",
+            "heading": "Photos from recent jobs.",
+            "heading_highlight": "recent jobs.",
             "intro": "",
             "images": []
           }
@@ -704,7 +706,7 @@
             "number": "01",
             "heading": "1970s board, brought up to date.",
             "heading_highlight": "brought up to date.",
-            "body": "A four-bedroom home still running ceramic fuses and one shared lighting circuit for the whole ground floor. We replaced the board entirely, split the circuits properly, and put RCDs on everything.\n\nHalf a day's work, power back on by mid-afternoon, and the owners finally have a board they can read.",
+            "body": "A four bedroom home still running ceramic fuses, with one shared lighting circuit covering the whole ground floor. We replaced the board entirely, split the circuits properly, and put RCDs on everything.\n\nHalf a day's work, power back on by mid afternoon, and the owners finally have a board they can read.",
             "image_right": "1"
           }
         },
@@ -714,9 +716,9 @@
             "bg": "paper",
             "kicker": "Mount Eliza",
             "number": "02",
-            "heading": "Whole-home LED changeover.",
+            "heading": "Whole home LED changeover.",
             "heading_highlight": "LED changeover.",
-            "body": "Thirty-two halogen downlights swapped for dimmable LEDs across two storeys, with warm white through the living areas and a cooler neutral in the kitchen and laundry.\n\nWe replaced four old leading-edge dimmers at the same time, which is usually the reason people think LEDs flicker.",
+            "body": "Thirty-two halogen downlights swapped for dimmable LEDs across two storeys, warm white through the living areas and a cooler neutral in the kitchen and laundry.\n\nWe replaced four old leading-edge dimmers at the same time, which is usually the real reason people think LEDs flicker.",
             "image_right": "0"
           }
         },
@@ -728,7 +730,7 @@
             "number": "03",
             "heading": "EV charger, load managed.",
             "heading_highlight": "load managed.",
-            "body": "A 7kW wall charger into a garage on a board that was already close to full. Rather than a full upgrade we fitted load management, so the charger eases off when the oven and ducted heating are both running.\n\nCable run concealed the length of the garage, app configured for off-peak charging, done in a day.",
+            "body": "A 7kW wall charger into a garage on a board that was already close to full. Rather than a full upgrade we fitted load management, so the charger eases off when the oven and the ducted heating are both running.\n\nCable run concealed the length of the garage, app configured for off-peak charging, done in a day.",
             "image_right": "1"
           }
         },
@@ -736,9 +738,10 @@
           "type": "reviews",
           "data": {
             "bg": "paper",
-            "kicker": "Don't take our word for it",
-            "heading": "Frankston locals love a good Spark Life.",
-            "heading_highlight": "love a good Spark Life.",
+            "kicker": "What people say",
+            "heading": "Reviews from around the Peninsula.",
+            "heading_highlight": "the Peninsula.",
+            "intro": "",
             "reviews": [
               {
                 "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
@@ -787,7 +790,7 @@
             "kicker": "Free quote",
             "heading": "Let's get your place sorted.",
             "heading_highlight": "place sorted.",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to chat? Give us a bell.",
+            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to talk? Give us a bell.",
             "show_details": "1",
             "preselect_service": "0",
             "form_button_text": "Send my request ⚡",
@@ -797,8 +800,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Got a job like one of these?",
+            "lead": "Tell us what you're planning and we'll price it properly.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -821,7 +824,7 @@
         {
           "type": "pagehero",
           "data": {
-            "eyebrow": "Don't take our word for it",
+            "eyebrow": "What people say",
             "title": "What the neighbours say.",
             "title_highlight": "the neighbours say.",
             "lead": "Rated 4.9 out of 5 by local homeowners across Frankston and the Peninsula.",
@@ -836,8 +839,9 @@
           "data": {
             "bg": "white",
             "kicker": "Reviews",
-            "heading": "Real jobs, real people.",
-            "heading_highlight": "real people.",
+            "heading": "Every one of these is a local job.",
+            "heading_highlight": "a local job.",
+            "intro": "",
             "reviews": [
               {
                 "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
@@ -883,12 +887,12 @@
           "data": {
             "bg": "ink",
             "kicker": "Why Spark Life",
-            "heading": "Tradies you'd actually invite back for a cuppa.",
-            "intro": "We started Spark Life because too many people had a horror story about a sparky who never showed, never called, or left a mess. We're the opposite of that — and we keep it a little bit fun.",
+            "heading": "Why people call us back.",
+            "intro": "We started Spark Life because too many people had a story about a sparky who never showed, never called, or left a mess behind. Doing the opposite of that is most of the job.",
             "items": [
               {
                 "title": "On time, every time.",
-                "desc": "We text when we're on the way. No all-day \"windows\" where you write off a Tuesday waiting."
+                "desc": "We text when we're on the way. No all day window where you write off a Tuesday waiting."
               },
               {
                 "title": "Upfront fixed pricing.",
@@ -899,8 +903,8 @@
                 "desc": "Drop sheets down, mess taken with us, like we were never there."
               },
               {
-                "title": "Fully licensed & insured.",
-                "desc": "REC 27391, full public liability, and every job to AS/NZS 3000 wiring rules."
+                "title": "Fully licensed and insured.",
+                "desc": "REC 27391, full public liability, and every job to the AS/NZS 3000 wiring rules."
               }
             ],
             "stats": [
@@ -939,7 +943,7 @@
             "kicker": "Free quote",
             "heading": "Let's get your place sorted.",
             "heading_highlight": "place sorted.",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to chat? Give us a bell.",
+            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to talk? Give us a bell.",
             "show_details": "1",
             "preselect_service": "0",
             "form_button_text": "Send my request ⚡",
@@ -949,8 +953,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Want to be the next one?",
+            "lead": "Tell us what needs doing and we'll get you a price.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -964,7 +968,7 @@
       "title": "Service Areas",
       "parent": null,
       "menu_order": 5,
-      "excerpt": "Spark Life covers Frankston, Bayside and the Mornington Peninsula — Seaford, Carrum Downs, Langwarrin, Mount Eliza, Mornington, Mount Martha and more.",
+      "excerpt": "Spark Life covers Frankston, Bayside and the Mornington Peninsula, including Seaford, Carrum Downs, Langwarrin, Mount Eliza, Mornington and Mount Martha.",
       "seo": {
         "title": "Service Areas | Electrician Frankston & Mornington Peninsula",
         "desc": "Licensed electricians covering Frankston, Frankston South, Seaford, Carrum Downs, Langwarrin, Mount Eliza, Mornington, Mount Martha and the wider Peninsula."
@@ -974,8 +978,8 @@
           "type": "pagehero",
           "data": {
             "eyebrow": "Where we work",
-            "title": "Local means local.",
-            "title_highlight": "means local.",
+            "title": "Where we actually get to.",
+            "title_highlight": "actually get to.",
             "lead": "We're based in Frankston and on the road across the bayside suburbs and the Peninsula every day.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
@@ -987,8 +991,8 @@
           "type": "service_areas",
           "data": {
             "kicker": "Where we work",
-            "heading": "Proudly covering the Mornington Peninsula.",
-            "intro": "Based in Frankston, on the road daily across the bayside suburbs. If you're nearby and not on the list, just ask — we probably still get there.",
+            "heading": "Frankston, Bayside and the Peninsula.",
+            "intro": "Based in Frankston and on the road across these suburbs daily. If you're nearby and not on the list, ask anyway. We probably still get there.",
             "suburbs": "Frankston\nFrankston South\nFrankston North\nSeaford\nCarrum Downs\nLangwarrin\nMount Eliza\nMornington\nMount Martha\nBaxter\nSkye\nSandhurst\nCranbourne\nSomerville\nKaringal\nChelsea"
           }
         },
@@ -1000,7 +1004,7 @@
             "heading": "Being nearby isn't a marketing line.",
             "heading_highlight": "a marketing line.",
             "max_width": "normal",
-            "content": "<p>Working a tight patch is the reason we can offer same-day call-outs and an hour's reply time. We're not driving in from the other side of Melbourne and charging you for the trip.</p><p>It also means we know the housing stock. The 1960s brick veneers through Frankston North with their original boards. The renovated weatherboards in Seaford. The newer estates at Sandhurst and Skye where the issue is almost never the wiring and almost always the appliance. Knowing what we're likely to find before we arrive saves everyone time.</p><p>If you're just outside the list, ask anyway. We get to Chelsea, Cranbourne and Somerville regularly.</p>"
+            "content": "<p>Working a tight patch is the reason we can offer same day call-outs and an hour's reply time. We're not driving in from the other side of Melbourne and charging you for the trip.</p><p>It also means we know the housing stock. The 1960s brick veneers through Frankston North with their original boards. The renovated weatherboards in Seaford. The newer estates at Sandhurst and Skye where the issue is almost never the wiring and almost always the appliance. Knowing what we're likely to find before we arrive saves everyone time.</p><p>If you're just outside the list, ask anyway. We get to Chelsea, Cranbourne and Somerville regularly.</p>"
           }
         },
         {
@@ -1026,8 +1030,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "In one of these suburbs?",
+            "lead": "Give us a bell and we'll usually get to you the same week.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -1041,10 +1045,10 @@
       "title": "Contact",
       "parent": null,
       "menu_order": 6,
-      "excerpt": "Get a free, fixed-price quote from Spark Life Electrical Contractors. Call, text or send the form — we reply within the hour during business times.",
+      "excerpt": "Get a free, fixed price quote from Spark Life Electrical Contractors. Call, text or send the form, and we reply within the hour during business times.",
       "seo": {
         "title": "Contact | Spark Life Electrical Contractors, Frankston",
-        "desc": "Get a free fixed-price quote. Call 0402 028 871, email hello@sparklife.com.au, or send the form — we reply within the hour during business times."
+        "desc": "Get a free fixed price quote. Call 0402 028 871, email hello@sparklife.com.au, or send the form. We reply within the hour during business times."
       },
       "sections": [
         {
@@ -1068,7 +1072,7 @@
             "kicker": "Free quote",
             "heading": "Let's get your place sorted.",
             "heading_highlight": "place sorted.",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to chat? Give us a bell.",
+            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to talk? Give us a bell.",
             "show_details": "1",
             "preselect_service": "0",
             "form_button_text": "Send my request ⚡",
@@ -1088,8 +1092,8 @@
           "type": "service_areas",
           "data": {
             "kicker": "Where we work",
-            "heading": "Proudly covering the Mornington Peninsula.",
-            "intro": "Based in Frankston, on the road daily across the bayside suburbs. If you're nearby and not on the list, just ask — we probably still get there.",
+            "heading": "Frankston, Bayside and the Peninsula.",
+            "intro": "Based in Frankston and on the road across these suburbs daily. If you're nearby and not on the list, ask anyway. We probably still get there.",
             "suburbs": "Frankston\nFrankston South\nFrankston North\nSeaford\nCarrum Downs\nLangwarrin\nMount Eliza\nMornington\nMount Martha\nBaxter\nSkye\nSandhurst\nCranbourne\nSomerville\nKaringal\nChelsea"
           }
         },
@@ -1103,27 +1107,27 @@
             "faqs": [
               {
                 "question": "Do you charge a call-out fee?",
-                "answer": "We give you a clear, fixed price before any work starts, so you'll always know exactly what you're paying. No mystery fees added at the end."
+                "answer": "You get a clear fixed price before any work starts, so you always know exactly what you're paying. Nothing gets added at the end."
               },
               {
                 "question": "How fast can you get to me?",
-                "answer": "For urgent issues we offer same-day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
+                "answer": "For urgent issues we offer same day call-outs across Frankston and the Peninsula wherever possible. Most quote requests get a reply within the hour during business times."
               },
               {
                 "question": "Are you licensed and insured?",
-                "answer": "Absolutely. Spark Life is a fully licensed electrical contractor (REC 27391) and carries full public liability insurance. Every job is completed to AS/NZS wiring standards."
+                "answer": "Yes. Spark Life is a fully licensed electrical contractor (REC 27391) carrying full public liability insurance, and every job is completed to the AS/NZS wiring standards."
               },
               {
                 "question": "Do you do small jobs, or just big ones?",
-                "answer": "Both. No job is too small — whether it's a single powerpoint or a full home rewire, it gets the same care and the same tidy finish."
+                "answer": "Both. No job is too small. A single powerpoint gets the same care and the same tidy finish as a full home rewire."
               },
               {
                 "question": "Do you guarantee your work?",
-                "answer": "Yes, 100%. We stand behind our workmanship and use quality materials. If something isn't right, we'll come back and make it right."
+                "answer": "Yes. We stand behind our workmanship and use quality materials. If something isn't right we come back and make it right."
               },
               {
                 "question": "Which suburbs do you cover?",
-                "answer": "Frankston and surrounds, the bayside suburbs and right down the Mornington Peninsula. If you're nearby and not on our list, ask — we probably still get there."
+                "answer": "Frankston and surrounds, the bayside suburbs, and right down the Mornington Peninsula. If you're nearby and not on our list, ask. We probably still get there."
               }
             ]
           }
@@ -1131,8 +1135,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Prefer to just talk it through?",
+            "lead": "Give us a call. We're happy to talk before anyone quotes anything.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -1166,7 +1170,7 @@
           "data": {
             "bg": "white",
             "max_width": "normal",
-            "content": "<p>This policy explains what personal information Spark Life Electrical Contractors collects, why we collect it, and what we do with it. It is written to meet our obligations under the Australian Privacy Principles.</p><h3>What we collect</h3><p>When you contact us — by phone, email or through a form on this site — we collect the details you give us: your name, phone number, email address, the address of the job, and whatever you tell us about the work you need done.</p><h3>Why we collect it</h3><p>Solely to quote and carry out the work you have asked about, to issue certificates and invoices, and to contact you about that job. We do not sell your information, and we do not share it with third parties for marketing.</p><h3>Who we share it with</h3><p>Only where it is necessary to do the work: for example, providing your details to a supplier arranging a warranty, or lodging a Certificate of Electrical Safety with the relevant regulator as the law requires.</p><h3>How long we keep it</h3><p>Job records and certificates are retained for as long as required by Victorian electrical safety and tax law. Enquiries that do not become jobs are deleted once they are no longer useful.</p><h3>Cookies and analytics</h3><p>This site may use cookies and analytics to understand how visitors use it. This data is aggregated and does not identify you personally. You can block cookies in your browser without losing access to any part of the site.</p><h3>Access, correction and complaints</h3><p>You can ask us what information we hold about you, ask us to correct it, or ask us to delete it where we are not legally required to keep it. Email <a href=\"mailto:hello@sparklife.com.au\">hello@sparklife.com.au</a> and we will respond within a reasonable time. If you are not satisfied with our response, you can contact the Office of the Australian Information Commissioner.</p>"
+            "content": "<p>This policy explains what personal information Spark Life Electrical Contractors collects, why we collect it, and what we do with it. It is written to meet our obligations under the Australian Privacy Principles.</p><h3>What we collect</h3><p>When you contact us by phone, email or through a form on this site, we collect the details you give us. That means your name, phone number, email address, the address of the job, and whatever you tell us about the work you need done.</p><h3>Why we collect it</h3><p>Solely to quote and carry out the work you have asked about, to issue certificates and invoices, and to contact you about that job. We do not sell your information and we do not share it with third parties for marketing.</p><h3>Who we share it with</h3><p>Only where it is necessary to do the work. For example, providing your details to a supplier arranging a warranty, or lodging a Certificate of Electrical Safety with the relevant regulator as the law requires.</p><h3>How long we keep it</h3><p>Job records and certificates are retained for as long as required by Victorian electrical safety and tax law. Enquiries that do not become jobs are deleted once they are no longer useful.</p><h3>Cookies and analytics</h3><p>This site may use cookies and analytics to understand how visitors use it. That data is aggregated and does not identify you personally. You can block cookies in your browser without losing access to any part of the site.</p><h3>Access, correction and complaints</h3><p>You can ask us what information we hold about you, ask us to correct it, or ask us to delete it where we are not legally required to keep it. Email <a href=\"mailto:hello@sparklife.com.au\">hello@sparklife.com.au</a> and we will respond within a reasonable time. If you are not satisfied with our response you can contact the Office of the Australian Information Commissioner.</p>"
           }
         },
         {
@@ -1207,14 +1211,14 @@
           "data": {
             "bg": "white",
             "max_width": "normal",
-            "content": "<p>These terms apply to quotes issued and work carried out by Spark Life Electrical Contractors (REC 27391) unless we have agreed something different with you in writing.</p><h3>Quotes</h3><p>Quotes are fixed for the scope described and valid for 30 days. If we open up a wall or a switchboard and find something materially different from what was quoted, we will stop, explain it, and give you a revised price before continuing. You will never receive a variation you did not approve first.</p><h3>Access and site conditions</h3><p>We need safe access to the work area, the switchboard and any roof or subfloor space involved. Where access is blocked or unsafe on the day and we cannot proceed, a call-out charge may apply.</p><h3>Workmanship warranty</h3><p>Our workmanship is guaranteed. If something we installed or repaired is not right, tell us and we will return and make it right at no cost. Materials and appliances carry their manufacturer's warranty, which we will help you claim.</p><h3>What is not covered</h3><p>Pre-existing faults outside the quoted scope, damage caused by others after we leave, and failure of appliances we did not supply are not covered by our workmanship warranty.</p><h3>Certificates</h3><p>A Certificate of Electrical Safety is issued for all prescribed work and provided to you on completion. Keep it — your insurer may ask for it.</p><h3>Payment</h3><p>Payment is due on completion unless other terms have been agreed in writing. Larger jobs may be invoiced in stages, set out in the quote.</p><h3>Cancellation</h3><p>Let us know as early as you can. Cancellations with less than 24 hours' notice may attract a fee covering materials already ordered for your job.</p><h3>Australian Consumer Law</h3><p>Nothing in these terms excludes, restricts or modifies any guarantee, right or remedy you have under the Australian Consumer Law.</p>"
+            "content": "<p>These terms apply to quotes issued and work carried out by Spark Life Electrical Contractors (REC 27391) unless we have agreed something different with you in writing.</p><h3>Quotes</h3><p>Quotes are fixed for the scope described and valid for 30 days. If we open up a wall or a switchboard and find something materially different from what was quoted, we stop, explain it, and give you a revised price before continuing. You will never receive a variation you did not approve first.</p><h3>Access and site conditions</h3><p>We need safe access to the work area, the switchboard, and any roof or subfloor space involved. Where access is blocked or unsafe on the day and we cannot proceed, a call-out charge may apply.</p><h3>Workmanship warranty</h3><p>Our workmanship is guaranteed. If something we installed or repaired is not right, tell us and we will return and make it right at no cost. Materials and appliances carry their manufacturer's warranty, which we will help you claim.</p><h3>What is not covered</h3><p>Pre-existing faults outside the quoted scope, damage caused by others after we leave, and failure of appliances we did not supply are not covered by our workmanship warranty.</p><h3>Certificates</h3><p>A Certificate of Electrical Safety is issued for all prescribed work and provided to you on completion. Keep it, because your insurer may ask for it.</p><h3>Payment</h3><p>Payment is due on completion unless other terms have been agreed in writing. Larger jobs may be invoiced in stages, set out in the quote.</p><h3>Cancellation</h3><p>Let us know as early as you can. Cancellations with less than 24 hours' notice may attract a fee covering materials already ordered for your job.</p><h3>Australian Consumer Law</h3><p>Nothing in these terms excludes, restricts or modifies any guarantee, right or remedy you have under the Australian Consumer Law.</p>"
           }
         },
         {
           "type": "cta_band",
           "data": {
             "title": "Anything unclear?",
-            "lead": "Give us a call — we'd rather explain it now than argue about it later.",
+            "lead": "Give us a call. We'd rather explain it now than argue about it later.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
@@ -1237,7 +1241,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Old ceramic fuses swapped for a modern board with safety switches that actually protect your family.",
+        "_sl_service_tagline": "Ceramic fuses out, safety switches in, on a board you can actually read.",
         "_sl_service_summary": "Old ceramic fuses or constant trips? We modernise switchboards with safety switches that actually protect your family.",
         "_sl_service_icon": "switchboard",
         "_sl_service_badge": "Most booked ⚡",
@@ -1255,7 +1259,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Switchboard Upgrades",
-            "lead": "Old ceramic fuses swapped for a modern board with safety switches that actually protect your family.",
+            "lead": "Ceramic fuses out, safety switches in, on a board you can actually read.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -1268,10 +1272,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "01",
+            "kicker": "Why boards get replaced",
+            "number": "",
             "heading": "Switchboard Upgrades",
-            "body": "If your board still has ceramic fuses and fuse wire, it was built for a house with a fridge, a kettle and a telly — not induction cooktops, ducted heating, a home office and a car on charge. Rewirable fuses protect the wiring. They do nothing to protect the person touching it.\n\nA switchboard upgrade replaces those fuses with circuit breakers and RCDs (safety switches) that cut power in around 30 milliseconds when current starts flowing somewhere it shouldn't. We split your circuits sensibly, label everything clearly, and leave you with a board that has room for whatever you add next.\n\nMost upgrades are a same-day job. We'll let you know beforehand roughly how long you'll be without power, and we work to keep the fridge and the wifi up as long as we can.",
+            "body": "If your board still has ceramic fuses and fuse wire, it was built for a house with a fridge, a kettle and a telly. It was not built for induction cooktops, ducted heating, a home office and a car on charge. Rewirable fuses protect the wiring. They do nothing to protect the person touching it.\n\nAn upgrade swaps those fuses for circuit breakers and RCDs (safety switches) that cut power in about 30 milliseconds when current starts flowing somewhere it shouldn't. We split your circuits sensibly, label everything clearly, and leave room on the board for whatever you add next.\n\nMost upgrades are a same day job. We'll tell you beforehand roughly how long you'll be without power, and we work to keep the fridge and the wifi up as long as we can.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -1283,9 +1287,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Switchboard Upgrades: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a switchboard upgrade includes.",
+            "heading_highlight": "",
+            "intro": "Quoted as one price before we start. Nothing gets added at the end.",
             "items": [
               {
                 "text": "Full inspection of your existing board and main switch"
@@ -1319,20 +1323,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Switchboard Upgrades — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Switchboard questions we get weekly.",
             "faqs": [
               {
                 "question": "Do I legally have to upgrade my switchboard?",
-                "answer": "There's no law forcing you to upgrade an existing board that's working. But safety switches are mandatory on new and modified circuits, and most insurers now expect them. If your board still has rewirable fuses, an upgrade is the single biggest safety improvement you can make to your home."
+                "answer": "There's no law forcing you to replace an existing board that's working. But safety switches are mandatory on new and modified circuits, and most insurers now expect them. If your board still has rewirable fuses, an upgrade is the single biggest safety improvement you can make to the house."
               },
               {
                 "question": "How long does a switchboard upgrade take?",
-                "answer": "A typical domestic upgrade takes four to six hours, including testing. Larger homes or boards needing a new main switch and meter work can run to a full day. We'll give you a fixed price and a realistic time frame before we start."
+                "answer": "A typical domestic upgrade takes four to six hours including testing. Larger homes, or boards needing a new main switch and meter work, can run to a full day. You'll have a fixed price and a realistic time frame before we start."
               },
               {
                 "question": "Will I lose power for the whole day?",
-                "answer": "No. Power is off only while we're transferring circuits across — usually two to three hours. We'll tell you when the outage starts so you can plan around the fridge, freezer and anyone working from home."
+                "answer": "No. Power is only off while we transfer circuits across, usually two to three hours. We'll tell you when the outage starts so you can plan around the fridge, the freezer and anyone working from home."
               }
             ]
           }
@@ -1343,9 +1346,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort a switchboard upgrade.",
-            "heading_highlight": "a switchboard upgrade.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Get a price on your board.",
+            "intro": "Send a photo of your existing board if you can. We can usually quote from that alone.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -1354,10 +1356,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -1365,8 +1367,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Still got fuse wire in the hallway?",
+            "lead": "Send through a photo of the board and we'll tell you what it needs.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -1378,7 +1380,7 @@
       "title": "LED Lighting & Downlights",
       "post_type": "service",
       "menu_order": 20,
-      "excerpt": "Brighten any room and slash power bills with crisp, modern LED installs.",
+      "excerpt": "Brighten any room and cut power bills with crisp, modern LED installs.",
       "terms": {
         "service_category": [
           "Residential"
@@ -1386,7 +1388,7 @@
       },
       "meta": {
         "_sl_service_tagline": "Brighter rooms, lower bills, and no more halogen scorch marks in the ceiling.",
-        "_sl_service_summary": "Brighten any room and slash power bills with crisp, modern LED installs.",
+        "_sl_service_summary": "Brighten any room and cut power bills with crisp, modern LED installs.",
         "_sl_service_icon": "downlight",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -1395,7 +1397,7 @@
       },
       "seo": {
         "title": "LED Lighting & Downlights | Spark Life Electrical, Frankston",
-        "desc": "Brighten any room and slash power bills with crisp, modern LED installs. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Brighten any room and cut power bills with crisp, modern LED installs. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -1416,10 +1418,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "02",
+            "kicker": "Halogen to LED",
+            "number": "",
             "heading": "LED Lighting & Downlights",
-            "body": "Swapping halogen downlights for LEDs is the quickest win in most homes. A halogen draws about 50 watts and runs hot enough to be a genuine ceiling fire risk. A modern LED gives you the same light — usually better — for around 9 watts, and runs cool.\n\nWe'll talk through colour temperature before we start, because it matters more than people expect. Warm white suits bedrooms and living rooms; a cooler neutral white works better in kitchens, laundries and garages. We can mix them room to room.\n\nNew installs, one-for-one replacements, dimmable circuits, strip lighting under kitchen cabinetry, feature pendants — all handled, and all cut in neatly so you're not left patching plaster.",
+            "body": "Swapping halogen downlights for LEDs is the quickest win in most homes. A halogen draws about 50 watts and runs hot enough to be a genuine ceiling fire risk. A modern LED gives you the same light, usually better, for around 9 watts, and runs cool.\n\nWe'll talk through colour temperature before we start, because it matters more than people expect. Warm white suits bedrooms and living rooms. A cooler neutral white works better in kitchens, laundries and garages. Mixing them room to room is completely normal.\n\nNew installs, one for one replacements, dimmable circuits, strip lighting under kitchen cabinetry, feature pendants. All handled, and all cut in neatly so you're not left patching plaster.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -1431,15 +1433,15 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "LED Lighting & Downlights: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an LED install includes.",
+            "heading_highlight": "",
+            "intro": "Fittings, install, and the dimmers to match. One price, agreed first.",
             "items": [
               {
                 "text": "Free lighting plan for the rooms you're doing"
               },
               {
-                "text": "Warm, neutral or cool white — your call, per room"
+                "text": "Warm, neutral or cool white, your call per room"
               },
               {
                 "text": "Dimmable options with matched dimmers"
@@ -1467,20 +1469,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "LED Lighting & Downlights — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "What people ask about downlights.",
             "faqs": [
               {
                 "question": "How much will LEDs actually save me?",
-                "answer": "Replacing twenty 50W halogens with 9W LEDs cuts about 800 watts of draw. Run four hours a night, that's roughly $180–$250 a year off the bill depending on your tariff — plus you stop replacing globes every eighteen months."
+                "answer": "Replacing twenty 50W halogens with 9W LEDs cuts about 800 watts of draw. Run four hours a night, that's roughly $180–$250 a year off the bill depending on your tariff. You also stop replacing globes every eighteen months."
               },
               {
                 "question": "Can you install downlights in an existing ceiling?",
-                "answer": "Yes, in almost every case. We work from the ceiling side wherever possible so there's no need to lift insulation or go into the roof space more than necessary. Double-storey homes with limited access sometimes need a slightly different layout — we'll show you the options first."
+                "answer": "Yes, in almost every case. We work from the ceiling side wherever possible so there's no need to lift insulation or go into the roof space more than necessary. Double storey homes with limited access sometimes need a slightly different layout, and we'll show you the options first."
               },
               {
                 "question": "Do LED downlights work with my dimmer?",
-                "answer": "Not always. Old leading-edge dimmers were designed for halogen loads and often flicker or buzz with LEDs. If yours is one of them we'll swap it for a matched trailing-edge dimmer at the same time."
+                "answer": "Not always. Old leading-edge dimmers were built for halogen loads and often flicker or buzz with LEDs. If yours is one of them we'll swap it for a matched trailing-edge dimmer at the same time."
               }
             ]
           }
@@ -1491,9 +1492,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your LED lighting.",
-            "heading_highlight": "your LED lighting.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Price up your lighting.",
+            "intro": "Tell us the rooms and roughly how many lights. That's usually enough for a fixed price.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -1502,10 +1502,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -1513,8 +1513,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Sick of replacing halogens?",
+            "lead": "Tell us which rooms and we'll price the changeover.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -1533,7 +1533,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Extra outlets, USB points and tidy wiring — so the double adaptors can finally go in the bin.",
+        "_sl_service_tagline": "Extra outlets and USB points, so the double adaptors can go in the bin.",
         "_sl_service_summary": "Extra outlets, USB points, or full rewires for renovations and older homes.",
         "_sl_service_icon": "powerpoint",
         "_sl_service_badge": "",
@@ -1551,7 +1551,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Powerpoints & Wiring",
-            "lead": "Extra outlets, USB points and tidy wiring — so the double adaptors can finally go in the bin.",
+            "lead": "Extra outlets and USB points, so the double adaptors can go in the bin.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -1564,10 +1564,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "03",
+            "kicker": "Outlets and circuits",
+            "number": "",
             "heading": "Powerpoints & Wiring",
-            "body": "Older homes were wired for a fraction of the appliances we plug in now. If you've got power boards feeding power boards, or you're unplugging the toaster to run the kettle, you don't need another adaptor — you need another circuit.\n\nWe add single, double and quad outlets, USB-C and USB-A combination points, weatherproof outdoor outlets, and dedicated circuits for the things that deserve one: ovens, air conditioners, workshop gear and home offices.\n\nEverything is chased in and made good where we can, and run neatly where we can't. We'll always show you the proposed outlet positions before we cut anything.",
+            "body": "Older homes were wired for a fraction of the appliances we plug in now. If you've got power boards feeding power boards, or you're unplugging the toaster to run the kettle, you don't need another adaptor. You need another circuit.\n\nWe add single, double and quad outlets, USB-C and USB-A combination points, weatherproof outdoor outlets, and dedicated circuits for the things that deserve one: ovens, air conditioners, workshop gear and home offices.\n\nCable gets chased into the wall and made good where we can, and run neatly where we can't. We'll always walk the proposed outlet positions with you before anything gets cut.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -1579,9 +1579,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Powerpoints & Wiring: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a powerpoint job includes.",
+            "heading_highlight": "",
+            "intro": "Cable, outlet, patching and certificate. All inside the quoted price.",
             "items": [
               {
                 "text": "New single, double and quad powerpoints"
@@ -1615,20 +1615,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Powerpoints & Wiring — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Powerpoint and wiring questions.",
             "faqs": [
               {
                 "question": "Can you add a powerpoint to a brick wall?",
-                "answer": "Yes. Solid brick and rendered walls take a bit more work than plasterboard, so we'll quote them accordingly, but it's routine. We chase, run the cable, patch, and leave the finish ready for paint."
+                "answer": "Yes. Solid brick and rendered walls take more work than plasterboard so we quote them accordingly, but it's routine. We chase, run the cable, patch, and leave the finish ready for paint."
               },
               {
                 "question": "How many outlets can I run off one circuit?",
-                "answer": "The wiring rules don't cap the number outright — what matters is the expected load and the circuit protection. In practice we plan for how the room is actually used, and put high-draw appliances on their own circuit rather than crowding an existing one."
+                "answer": "The wiring rules don't cap the number outright. What matters is the expected load and the circuit protection. In practice we plan around how the room is actually used, and put high-draw appliances on their own circuit rather than crowding an existing one."
               },
               {
                 "question": "Do I need a licensed electrician just to change a powerpoint?",
-                "answer": "Yes. In Victoria any work on fixed wiring — including swapping an outlet — must be done by a licensed electrician and certified. It's not a DIY job, and doing it yourself can void your insurance."
+                "answer": "Yes. In Victoria any work on fixed wiring, including swapping an outlet, has to be done by a licensed electrician and certified. It's not a DIY job, and doing it yourself can void your insurance."
               }
             ]
           }
@@ -1639,9 +1638,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your powerpoints and wiring.",
-            "heading_highlight": "your powerpoints and wiring.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Price up your outlets.",
+            "intro": "Tell us where you want them and what the wall is made of. That's usually enough to quote.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -1650,10 +1648,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -1661,8 +1659,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Run out of powerpoints?",
+            "lead": "Tell us where you want them and we'll price it up.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -1674,15 +1672,15 @@
       "title": "Ceiling Fans",
       "post_type": "service",
       "menu_order": 40,
-      "excerpt": "Supply & install or swap-outs. Cool, quiet, and balanced every time.",
+      "excerpt": "Supply and install or a straight swap. Cool, quiet, and balanced every time.",
       "terms": {
         "service_category": [
           "Residential"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Supply and install or a straight swap — cool, quiet and properly balanced.",
-        "_sl_service_summary": "Supply & install or swap-outs. Cool, quiet, and balanced every time.",
+        "_sl_service_tagline": "Mounted to a real fixing point and balanced, so it runs silent at every speed.",
+        "_sl_service_summary": "Supply and install or a straight swap. Cool, quiet, and balanced every time.",
         "_sl_service_icon": "fan",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -1691,7 +1689,7 @@
       },
       "seo": {
         "title": "Ceiling Fans | Spark Life Electrical, Frankston",
-        "desc": "Supply & install or swap-outs. Cool, quiet, and balanced every time. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Supply and install or a straight swap. Cool, quiet, and balanced every time. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -1699,7 +1697,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Ceiling Fans",
-            "lead": "Supply and install or a straight swap — cool, quiet and properly balanced.",
+            "lead": "Mounted to a real fixing point and balanced, so it runs silent at every speed.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -1712,10 +1710,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "04",
+            "kicker": "Mounting and balance",
+            "number": "",
             "heading": "Ceiling Fans",
-            "body": "A ceiling fan is the cheapest cooling in the house — a few cents an hour against dollars for air conditioning — and in a well-shaded room it's often all you need until the really hot days.\n\nThe two things that make a fan good or unbearable are mounting and balance. We fix to a proper structural point (not just the plasterboard), set the drop rod to suit your ceiling height, and balance the blades so it runs silent at every speed.\n\nWe install fans with and without lights, DC models for the quiet ones, and can add a wall control or remote. Swapping an old fan for a new one is usually a one-hour visit.",
+            "body": "A ceiling fan is the cheapest cooling in the house, a few cents an hour against dollars for air conditioning. In a well shaded room it's often all you need until the really hot days.\n\nTwo things make a fan good or unbearable: mounting and balance. We fix to a proper structural point rather than just the plasterboard, set the drop rod to suit your ceiling height, and balance the blades so it runs silent at every speed.\n\nFans with and without lights, DC models for the quiet ones, wall controls and remotes. Swapping an old fan for a new one is usually a one hour visit.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -1727,12 +1725,12 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Ceiling Fans: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a fan install includes.",
+            "heading_highlight": "",
+            "intro": "Supply, mount, balance, and the old one taken away. Quoted upfront.",
             "items": [
               {
-                "text": "Supply and install, or install your own fan"
+                "text": "Supply and install, or install a fan you've bought"
               },
               {
                 "text": "Mounted to a structural fixing point, every time"
@@ -1753,7 +1751,7 @@
                 "text": "Old fan removed and taken away"
               },
               {
-                "text": "Outdoor-rated fans for alfrescos and verandahs"
+                "text": "Outdoor rated fans for alfrescos and verandahs"
               }
             ]
           }
@@ -1763,12 +1761,11 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Ceiling Fans — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Ceiling fan questions.",
             "faqs": [
               {
                 "question": "Can you replace my old fan with a new one?",
-                "answer": "Yes, and it's usually straightforward — most swaps take about an hour. If the old fan was mounted straight to the plasterboard we'll add a proper fixing point while we're there."
+                "answer": "Yes, and it's usually straightforward. Most swaps take about an hour. If the old fan was mounted straight to the plasterboard we'll add a proper fixing point while we're up there."
               },
               {
                 "question": "Are DC fans worth the extra money?",
@@ -1776,7 +1773,7 @@
               },
               {
                 "question": "Can I put a ceiling fan in an outdoor area?",
-                "answer": "Only an outdoor-rated one. Standard indoor fans corrode fast under an alfresco. We'll spec an IP-rated fan suitable for the exposure your area actually gets."
+                "answer": "Only an outdoor rated one. Standard indoor fans corrode fast under an alfresco. We'll spec a fan with an IP rating suited to the exposure your area actually gets."
               }
             ]
           }
@@ -1787,9 +1784,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort a ceiling fan.",
-            "heading_highlight": "a ceiling fan.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Book a fan install.",
+            "intro": "Let us know how many, and whether you've already bought them.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -1798,10 +1794,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -1809,8 +1805,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Room that never cools down?",
+            "lead": "A fan is the cheapest fix. We'll tell you if it's the right one.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -1829,7 +1825,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Going electric? We install home chargers neatly and to spec, ready when your car is.",
+        "_sl_service_tagline": "A dedicated 7kW charger, load assessed first so the house doesn't trip.",
         "_sl_service_summary": "Going electric? We install home chargers neatly and to spec, ready when your car is.",
         "_sl_service_icon": "ev",
         "_sl_service_badge": "Growing fast 🔌",
@@ -1847,7 +1843,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "EV Charger Installation",
-            "lead": "Going electric? We install home chargers neatly and to spec, ready when your car is.",
+            "lead": "A dedicated 7kW charger, load assessed first so the house doesn't trip.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -1860,10 +1856,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "05",
+            "kicker": "Charging at home",
+            "number": "",
             "heading": "EV Charger Installation",
-            "body": "Charging from a standard powerpoint works, but it's slow — roughly 10 to 15 km of range an hour, so an overnight charge barely covers a decent commute. A dedicated 7kW wall charger does the same job three to four times faster and stops you tying up a general power circuit for twelve hours a night.\n\nEvery install starts with a load assessment: what your switchboard can carry, what the supply into the property will take, and whether load management is needed so the charger backs off when the oven and aircon are both running.\n\nWe install all the common brands, run the cable neatly to your preferred parking spot, and set up the app and charging schedule with you before we leave.",
+            "body": "Charging from a standard powerpoint works, but it's slow. Roughly 10 to 15 km of range an hour, so an overnight charge barely covers a decent commute. A dedicated 7kW wall charger does the same job three to four times faster, and stops you tying up a general power circuit for twelve hours a night.\n\nEvery install starts with a load assessment: what your switchboard can carry, what the supply into the property will take, and whether load management is needed so the charger backs off when the oven and the aircon are both running.\n\nWe install all the common brands, run the cable neatly to wherever you actually park, and set up the app and the charging schedule with you before we leave.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -1875,9 +1871,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "EV Charger Installation: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an EV charger install includes.",
+            "heading_highlight": "",
+            "intro": "Load assessment, charger, cable run, app setup and certificate.",
             "items": [
               {
                 "text": "Free load assessment before we quote"
@@ -1886,7 +1882,7 @@
                 "text": "7kW single-phase and 22kW three-phase installs"
               },
               {
-                "text": "All major brands — Tesla, Zappi, Ocular, Fronius and more"
+                "text": "All major brands, including Tesla, Zappi, Ocular and Fronius"
               },
               {
                 "text": "Dedicated circuit with its own RCD protection"
@@ -1898,7 +1894,7 @@
                 "text": "Cable run neatly to garage, carport or driveway"
               },
               {
-                "text": "App set-up and off-peak charging schedule configured"
+                "text": "App set up and off-peak charging schedule configured"
               },
               {
                 "text": "Certificate of Electrical Safety on completion"
@@ -1911,20 +1907,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "EV Charger Installation — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "EV charging questions.",
             "faqs": [
               {
                 "question": "Do I need a switchboard upgrade for an EV charger?",
-                "answer": "Sometimes. If your board is full or still on ceramic fuses, we'll need to make room and add RCD protection. We check this during the free load assessment so there are no surprises on the day."
+                "answer": "Sometimes. If your board is full or still on ceramic fuses we'll need to make room and add RCD protection. That gets checked during the free load assessment, so there are no surprises on the day."
               },
               {
                 "question": "How fast will a home charger charge my car?",
-                "answer": "A 7kW single-phase charger adds roughly 40 km of range per hour — a full overnight charge for almost any EV. Three-phase 11kW or 22kW is faster again, but only if your car can accept it, so it's worth checking before you spend the extra."
+                "answer": "A 7kW single-phase charger adds roughly 40 km of range per hour, which is a full overnight charge for almost any EV. Three-phase 11kW or 22kW is faster again, but only if your car can accept it, so it's worth checking before you spend the extra."
               },
               {
                 "question": "Can you install a charger if I park on the street?",
-                "answer": "Not safely or legally — cables can't cross a public footpath. If you have off-street parking anywhere on the property, even a carport at the rear, we can usually run to it."
+                "answer": "Not safely or legally, because cables can't cross a public footpath. If you have off-street parking anywhere on the property, even a carport at the rear, we can usually run to it."
               }
             ]
           }
@@ -1935,9 +1930,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort an EV charger.",
-            "heading_highlight": "an EV charger.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Price up a home charger.",
+            "intro": "Tell us the car and where you park. We check your board carries it before quoting.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -1946,10 +1940,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -1957,8 +1951,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "New EV on the way?",
+            "lead": "Book the load assessment now so the charger is in before the car lands.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -1970,15 +1964,15 @@
       "title": "Electrical Safety Inspections",
       "post_type": "service",
       "menu_order": 60,
-      "excerpt": "Buying, selling, or just unsure? Full home safety checks with a clear report.",
+      "excerpt": "Buying, selling, or just unsure? A full home safety check with a clear report.",
       "terms": {
         "service_category": [
           "Safety & Compliance"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Buying, selling or just unsure? A full check of the house with a clear written report.",
-        "_sl_service_summary": "Buying, selling, or just unsure? Full home safety checks with a clear report.",
+        "_sl_service_tagline": "Every circuit tested, with a written report in plain English and priced options.",
+        "_sl_service_summary": "Buying, selling, or just unsure? A full home safety check with a clear report.",
         "_sl_service_icon": "shield",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -1987,7 +1981,7 @@
       },
       "seo": {
         "title": "Electrical Safety Inspections | Spark Life Electrical, Frankston",
-        "desc": "Buying, selling, or just unsure? Full home safety checks with a clear report. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Buying, selling, or just unsure? A full home safety check with a clear report. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -1995,7 +1989,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Electrical Safety Inspections",
-            "lead": "Buying, selling or just unsure? A full check of the house with a clear written report.",
+            "lead": "Every circuit tested, with a written report in plain English and priced options.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2008,10 +2002,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "06",
+            "kicker": "What we check",
+            "number": "",
             "heading": "Electrical Safety Inspections",
-            "body": "Most electrical faults give you warning long before they become dangerous — a warm switch plate, a breaker that trips every few weeks, a light that flickers when the dryer starts. A safety inspection catches those while they're still cheap to fix.\n\nWe check the switchboard, test every RCD, inspect accessible wiring and connections, check smoke alarms, test outlets for correct polarity and earthing, and look at the things people forget: the shed, the pool pump, the garden lighting.\n\nYou get a plain-English written report — what's compliant, what's worth watching, and what genuinely needs doing — with prices, so you can decide what happens next.",
+            "body": "Most electrical faults give warning long before they become dangerous. A warm switch plate, a breaker that trips every few weeks, a light that flickers when the dryer starts. An inspection catches those while they're still cheap to fix.\n\nWe check the switchboard, test every RCD, inspect accessible wiring and connections, check smoke alarms, and test outlets for correct polarity and earthing. We also look at the things people forget: the shed, the pool pump, the garden lighting.\n\nYou get a plain English written report covering what's compliant, what's worth watching and what genuinely needs doing, with prices, so you can decide what happens next.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2023,9 +2017,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Electrical Safety Inspections: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an inspection covers.",
+            "heading_highlight": "",
+            "intro": "Every circuit, every outlet, and a written report you can actually act on.",
             "items": [
               {
                 "text": "Full switchboard and main switch inspection"
@@ -2059,20 +2053,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Electrical Safety Inspections — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Inspection questions.",
             "faqs": [
               {
                 "question": "Should I get an inspection before buying a house?",
-                "answer": "It's one of the cheapest pieces of due diligence you can do. A building inspection rarely covers electrical work in any depth. We've found unsafe boards, unpermitted DIY wiring and dead safety switches in homes that passed a building inspection."
+                "answer": "It's one of the cheapest pieces of due diligence you can do. A building inspection rarely covers electrical work in any depth. We've found unsafe boards, unpermitted DIY wiring and dead safety switches in homes that passed one."
               },
               {
                 "question": "How often should a home be inspected?",
-                "answer": "Every five years for an owner-occupied home, or every two years if it's rented or over forty years old. If you've just bought, renovated, or had recurring trips, get one done now."
+                "answer": "Every five years for an owner occupied home, or every two years if it's rented or over forty years old. If you've just bought, just renovated, or had recurring trips, get one done now."
               },
               {
                 "question": "What if you find something dangerous?",
-                "answer": "Anything immediately unsafe we'll make safe on the spot and tell you straight away. Everything else goes in the report with a priority and a price, and you decide what gets done and when."
+                "answer": "Anything immediately unsafe we make safe on the spot and tell you straight away. Everything else goes in the report with a priority and a price, and you decide what gets done and when."
               }
             ]
           }
@@ -2083,9 +2076,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort a safety inspection.",
-            "heading_highlight": "a safety inspection.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Book a safety inspection.",
+            "intro": "Tell us the age of the house and whether you're buying, selling or just unsure.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2094,10 +2086,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2105,8 +2097,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Buying, selling, or just not sure?",
+            "lead": "An inspection is the cheapest way to find out what you're dealing with.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2118,15 +2110,15 @@
       "title": "Smoke Alarms",
       "post_type": "service",
       "menu_order": 70,
-      "excerpt": "Compliant interconnected alarm installs and replacements. Peace of mind sorted.",
+      "excerpt": "Compliant interconnected alarm installs and replacements, tested and dated.",
       "terms": {
         "service_category": [
           "Safety & Compliance"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Compliant, interconnected alarms installed and tested — peace of mind sorted.",
-        "_sl_service_summary": "Compliant interconnected alarm installs and replacements. Peace of mind sorted.",
+        "_sl_service_tagline": "Photoelectric alarms, interconnected, so one going off wakes the whole house.",
+        "_sl_service_summary": "Compliant interconnected alarm installs and replacements, tested and dated.",
         "_sl_service_icon": "alarm",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -2135,7 +2127,7 @@
       },
       "seo": {
         "title": "Smoke Alarms | Spark Life Electrical, Frankston",
-        "desc": "Compliant interconnected alarm installs and replacements. Peace of mind sorted. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Compliant interconnected alarm installs and replacements, tested and dated. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -2143,7 +2135,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Smoke Alarms",
-            "lead": "Compliant, interconnected alarms installed and tested — peace of mind sorted.",
+            "lead": "Photoelectric alarms, interconnected, so one going off wakes the whole house.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2156,10 +2148,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "07",
+            "kicker": "Placement and expiry",
+            "number": "",
             "heading": "Smoke Alarms",
-            "body": "Smoke alarms expire. Every one of them has a manufacture date stamped on the back, and after ten years the sensor is no longer reliable — regardless of whether it still chirps when you press the button.\n\nIn Victoria, homes built or significantly renovated since August 1997 need mains-powered alarms with battery backup. We replace expired units, add alarms where there aren't enough, and interconnect them so that when one sounds, they all do — which is what actually gets people out of a house at 3am.\n\nWe fit photoelectric alarms as standard. They respond faster to the slow, smouldering fires that cause most home fire deaths, and they're far less prone to nuisance triggering from the kitchen.",
+            "body": "Smoke alarms expire. Every one has a manufacture date stamped on the back, and after ten years the sensor is no longer reliable, regardless of whether it still chirps when you press the button.\n\nIn Victoria, homes built or significantly renovated since August 1997 need mains powered alarms with battery backup. We replace expired units, add alarms where there aren't enough, and interconnect them so that when one sounds they all do. That's what actually gets people out of a house at 3am.\n\nWe fit photoelectric alarms as standard. They respond faster to the slow smouldering fires that cause most home fire deaths, and they're far less prone to going off every time you make toast.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2171,15 +2163,15 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Smoke Alarms: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an alarm install includes.",
+            "heading_highlight": "",
+            "intro": "Alarms, mounting, interconnection, and a dated test on every unit.",
             "items": [
               {
                 "text": "Photoelectric alarms as standard"
               },
               {
-                "text": "240V mains-powered with battery backup"
+                "text": "240V mains powered with battery backup"
               },
               {
                 "text": "Wireless or hard-wired interconnection"
@@ -2207,16 +2199,15 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Smoke Alarms — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Smoke alarm questions.",
             "faqs": [
               {
                 "question": "How do I know if my smoke alarms have expired?",
-                "answer": "Take the alarm off its base — the manufacture date is printed on the back. If it's more than ten years old it needs replacing, even if it still beeps when tested."
+                "answer": "Take the alarm off its base. The manufacture date is printed on the back. If it's more than ten years old it needs replacing, even if it still beeps when you test it."
               },
               {
                 "question": "Do my alarms need to be interconnected?",
-                "answer": "For new builds and significant renovations, yes. For existing homes it isn't mandatory, but it's the single biggest improvement you can make: an alarm sounding in the laundry doesn't wake anyone in a bedroom at the other end of the house."
+                "answer": "For new builds and significant renovations, yes. For existing homes it isn't mandatory, but it's the single biggest improvement you can make. An alarm sounding in the laundry doesn't wake anyone in a bedroom at the other end of the house."
               },
               {
                 "question": "What are the rules for rental properties?",
@@ -2231,9 +2222,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your smoke alarms.",
-            "heading_highlight": "your smoke alarms.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Get your alarms sorted.",
+            "intro": "Tell us how many bedrooms, and roughly how old the alarms are.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2242,10 +2232,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2253,8 +2243,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "When were your alarms last replaced?",
+            "lead": "If you can't remember, they're probably due. Ten years is the limit.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2266,15 +2256,15 @@
       "title": "House Rewiring",
       "post_type": "service",
       "menu_order": 80,
-      "excerpt": "Full or partial rewires for older homes, planned in stages so you keep living in the house.",
+      "excerpt": "Full or partial rewires for older homes, staged so you keep the kitchen running.",
       "terms": {
         "service_category": [
           "Renovation & New Builds"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Old cloth or VIR wiring replaced in stages, so you're never living on a building site.",
-        "_sl_service_summary": "Full or partial rewires for older homes, planned in stages so you keep living in the house.",
+        "_sl_service_tagline": "Old rubber and cloth cable replaced in stages, so you keep living in the house.",
+        "_sl_service_summary": "Full or partial rewires for older homes, staged so you keep the kitchen running.",
         "_sl_service_icon": "powerpoint",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -2283,7 +2273,7 @@
       },
       "seo": {
         "title": "House Rewiring | Spark Life Electrical, Frankston",
-        "desc": "Full or partial rewires for older homes, planned in stages so you keep living in the house. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Full or partial rewires for older homes, staged so you keep the kitchen running. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -2291,7 +2281,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "House Rewiring",
-            "lead": "Old cloth or VIR wiring replaced in stages, so you're never living on a building site.",
+            "lead": "Old rubber and cloth cable replaced in stages, so you keep living in the house.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2304,10 +2294,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "08",
+            "kicker": "Staging the work",
+            "number": "",
             "heading": "House Rewiring",
-            "body": "If your house was wired before the late 1960s there's a good chance parts of it still run on rubber or cloth-insulated cable. That insulation goes brittle, cracks, and eventually falls away from the conductor — which is how you get arcing inside a wall cavity.\n\nA full rewire replaces every circuit from the board out. We plan it in stages so you're never without power to the kitchen or bathroom for more than a day, and we work with your builder if a renovation is already underway.\n\nThis is the point to think about what you actually want: where the outlets should be, whether the lighting layout still suits how you use the rooms, data cabling, outdoor circuits. Rewiring twice is expensive.",
+            "body": "If your house was wired before the late 1960s there's a good chance parts of it still run on rubber or cloth insulated cable. That insulation goes brittle, cracks, and eventually falls away from the conductor, which is how you get arcing inside a wall cavity.\n\nA full rewire replaces every circuit from the board out. We stage it so you're never without power to the kitchen or bathroom for more than a day, and we work around your builder if a renovation is already underway.\n\nThis is the moment to think about what you actually want. Where the outlets should be, whether the lighting layout still suits how you use the rooms, data cabling, outdoor circuits. Rewiring twice is expensive.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2319,9 +2309,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "House Rewiring: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a rewire includes.",
+            "heading_highlight": "",
+            "intro": "Every circuit, a new board, and a plan for which rooms are down when.",
             "items": [
               {
                 "text": "Full or partial rewires, staged around you"
@@ -2355,20 +2345,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "House Rewiring — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Rewiring questions.",
             "faqs": [
               {
                 "question": "How long does a full rewire take?",
-                "answer": "A three-bedroom single-storey home is typically five to eight working days, depending on access and whether ceilings and walls are already open. We'll give you a staged plan so you know which rooms are affected each day."
+                "answer": "A three bedroom single storey home is typically five to eight working days, depending on access and whether ceilings and walls are already open. You'll get a staged plan so you know which rooms are affected each day."
               },
               {
                 "question": "Can I stay in the house during a rewire?",
-                "answer": "Almost always, yes. We stage the work so the kitchen, bathroom and at least one living area stay live overnight. Only rarely does a rewire need the whole property de-energised for a full day."
+                "answer": "Almost always. We stage the work so the kitchen, bathroom and at least one living area stay live overnight. It's rare for a rewire to need the whole property de-energised for a full day."
               },
               {
                 "question": "Do I have to rewire the whole house at once?",
-                "answer": "No. Partial rewires are common — replacing the worst circuits now and the rest later. We'll tell you honestly which parts genuinely need doing and which can safely wait."
+                "answer": "No. Partial rewires are common, replacing the worst circuits now and the rest later. We'll tell you honestly which parts genuinely need doing and which can safely wait."
               }
             ]
           }
@@ -2379,9 +2368,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort a rewire.",
-            "heading_highlight": "a rewire.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Talk through a rewire.",
+            "intro": "Tell us the age of the house and whether walls are already open. We walk it with you before quoting.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2390,10 +2378,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2401,8 +2389,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Old cloth wiring in the walls?",
+            "lead": "We'll tell you what needs doing now and what can safely wait.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2421,7 +2409,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Tripping breakers, flickering lights and dead outlets — traced properly, fixed once.",
+        "_sl_service_tagline": "Traced properly with test gear, so it gets fixed once instead of guessed at twice.",
         "_sl_service_summary": "Power tripping or lights flickering? We trace intermittent faults other sparkies miss.",
         "_sl_service_icon": "search",
         "_sl_service_badge": "",
@@ -2439,7 +2427,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Fault Finding & Repairs",
-            "lead": "Tripping breakers, flickering lights and dead outlets — traced properly, fixed once.",
+            "lead": "Traced properly with test gear, so it gets fixed once instead of guessed at twice.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2452,10 +2440,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "09",
+            "kicker": "How we trace it",
+            "number": "",
             "heading": "Fault Finding & Repairs",
-            "body": "Intermittent faults are the ones that cost people money, because it's tempting to guess. Someone swaps the breaker, the trip stops for a fortnight, and then it's back — and you've paid for a part you didn't need.\n\nWe isolate faults properly: split the circuit, test insulation resistance, check earth continuity, and load-test until the fault shows itself. Sometimes it's a nail through a cable from a picture hook. Sometimes it's a failing appliance, not the wiring at all.\n\nYou'll get told what the fault actually was, not just that it's fixed — including when the honest answer is that your oven element is on the way out and the wiring is fine.",
+            "body": "Intermittent faults are the ones that cost people money, because it's tempting to guess. Someone swaps the breaker, the tripping stops for a fortnight, then it's back, and you've paid for a part you never needed.\n\nWe isolate faults properly. Split the circuit, test insulation resistance, check earth continuity, and load test until the fault shows itself. Sometimes it's a nail through a cable from a picture hook. Sometimes it's a failing appliance and the wiring is perfectly fine.\n\nYou'll be told what the fault actually was, not just that it's fixed. That includes the times the honest answer is that your oven element is on the way out and there's nothing wrong with the circuit.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2467,9 +2455,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Fault Finding & Repairs: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What fault finding includes.",
+            "heading_highlight": "",
+            "intro": "Testing, isolation, and a straight answer about what was actually wrong.",
             "items": [
               {
                 "text": "Systematic testing, not guesswork"
@@ -2484,7 +2472,7 @@
                 "text": "Nuisance-tripping RCDs diagnosed properly"
               },
               {
-                "text": "Faulty appliances identified before wiring is blamed"
+                "text": "Faulty appliances identified before the wiring is blamed"
               },
               {
                 "text": "Repairs done on the spot where possible"
@@ -2493,7 +2481,7 @@
                 "text": "Clear explanation of what the fault actually was"
               },
               {
-                "text": "Same-day attendance for anything unsafe"
+                "text": "Same day attendance for anything unsafe"
               }
             ]
           }
@@ -2503,19 +2491,18 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Fault Finding & Repairs — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Fault finding questions.",
             "faqs": [
               {
                 "question": "Why does my safety switch keep tripping?",
-                "answer": "Usually a faulty appliance leaking current to earth, moisture in an outdoor circuit, or degraded insulation somewhere in the wiring. It's doing exactly what it's meant to. We'll find which of the three it is rather than swapping the switch and hoping."
+                "answer": "Usually a faulty appliance leaking current to earth, moisture in an outdoor circuit, or degraded insulation somewhere in the wiring. It's doing exactly what it's meant to. We find which of the three it is rather than swapping the switch and hoping."
               },
               {
                 "question": "Can you find a fault without opening up my walls?",
                 "answer": "In most cases, yes. Testing narrows a fault down to a section of circuit before anything gets opened. If access is unavoidable we'll show you exactly where and why before we cut."
               },
               {
-                "question": "Half my house has no power — is that an emergency?",
+                "question": "Half my house has no power. Is that an emergency?",
                 "answer": "It can be. If you can smell burning, see scorching, or a switch or outlet is hot to touch, turn the main switch off and call us straight away."
               }
             ]
@@ -2527,9 +2514,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort that fault.",
-            "heading_highlight": "that fault.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Get that fault traced.",
+            "intro": "Tell us what trips and when it happens. The pattern is half the diagnosis.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2538,10 +2524,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2549,8 +2535,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Breaker tripping again?",
+            "lead": "Tell us when it happens and we'll find the cause, not just reset it.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2562,15 +2548,15 @@
       "title": "Emergency Electrician",
       "post_type": "service",
       "menu_order": 100,
-      "excerpt": "Power out, sparking outlet, burning smell? We prioritise anything genuinely unsafe.",
+      "excerpt": "Power out, sparking outlet or a burning smell? We prioritise anything genuinely unsafe.",
       "terms": {
         "service_category": [
           "Safety & Compliance"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Something burning, sparking or dead? Call us — we prioritise anything unsafe.",
-        "_sl_service_summary": "Power out, sparking outlet, burning smell? We prioritise anything genuinely unsafe.",
+        "_sl_service_tagline": "Made safe first, quoted second, so nobody decides on a repair in a dark hallway.",
+        "_sl_service_summary": "Power out, sparking outlet or a burning smell? We prioritise anything genuinely unsafe.",
         "_sl_service_icon": "bolt",
         "_sl_service_badge": "Same-day ⚡",
         "_sl_service_price_from": "",
@@ -2579,7 +2565,7 @@
       },
       "seo": {
         "title": "Emergency Electrician | Spark Life Electrical, Frankston",
-        "desc": "Power out, sparking outlet, burning smell? We prioritise anything genuinely unsafe. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Power out, sparking outlet or a burning smell? We prioritise anything genuinely unsafe. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -2587,7 +2573,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Emergency Electrician",
-            "lead": "Something burning, sparking or dead? Call us — we prioritise anything unsafe.",
+            "lead": "Made safe first, quoted second, so nobody decides on a repair in a dark hallway.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2600,10 +2586,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "10",
+            "kicker": "When it can't wait",
+            "number": "",
             "heading": "Emergency Electrician",
-            "body": "Some things wait until Tuesday. A burning smell from the switchboard, a sparking outlet, scorch marks around a switch, or water into an electrical fitting do not.\n\nIf you're on our patch and it's genuinely unsafe, we'll get to you the same day wherever we can. Before we arrive we'll talk you through making the situation safe over the phone — usually turning off the relevant circuit or the main switch.\n\nWe'll make the installation safe first and quote the permanent repair second, so nobody's making a spending decision while standing in a dark hallway.",
+            "body": "Some things wait until Tuesday. A burning smell from the switchboard, a sparking outlet, scorch marks around a switch, or water getting into an electrical fitting are not among them.\n\nIf you're on our patch and it's genuinely unsafe, we'll get to you the same day wherever we can. Before we arrive we'll talk you through making the situation safe over the phone, usually by turning off the relevant circuit or the main switch.\n\nWe make the installation safe first and quote the permanent repair second. Nobody should be making a spending decision while standing in a dark hallway.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2615,12 +2601,12 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Emergency Electrician: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an urgent call-out includes.",
+            "heading_highlight": "",
+            "intro": "Made safe first, quoted second. You're never deciding under pressure.",
             "items": [
               {
-                "text": "Same-day attendance across the Peninsula"
+                "text": "Same day attendance across the Peninsula"
               },
               {
                 "text": "Phone advice on making it safe before we arrive"
@@ -2651,8 +2637,7 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Emergency Electrician — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Emergency questions.",
             "faqs": [
               {
                 "question": "What counts as an electrical emergency?",
@@ -2660,11 +2645,11 @@
               },
               {
                 "question": "What should I do before you arrive?",
-                "answer": "If it's safe to reach the switchboard, turn off the affected circuit — or the main switch if you're not sure which. Don't touch anything that's wet, hot or sparking. Call us and we'll talk you through it."
+                "answer": "If it's safe to reach the switchboard, turn off the affected circuit, or the main switch if you're not sure which one it is. Don't touch anything wet, hot or sparking. Call us and we'll talk you through it."
               },
               {
                 "question": "Is the power outage my problem or the network's?",
-                "answer": "If your neighbours are also out, it's the distributor's network and they'll be working on it. If it's just you, it's on your side of the meter and we can help."
+                "answer": "If your neighbours are out too it's the distributor's network and they'll be working on it. If it's just you, it's on your side of the meter and we can help."
               }
             ]
           }
@@ -2675,9 +2660,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort an urgent call-out.",
-            "heading_highlight": "an urgent call-out.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Need someone today?",
+            "intro": "If it's burning, sparking or wet, call rather than fill this in. We'll talk you through making it safe.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2686,10 +2670,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2697,8 +2681,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Something burning or sparking?",
+            "lead": "Turn that circuit off at the board and call us now.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2717,7 +2701,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Element and thermostat repairs, off-peak changeovers and new system connections.",
+        "_sl_service_tagline": "Element, thermostat or circuit, diagnosed and usually fixed in the same visit.",
         "_sl_service_summary": "No hot water? We repair elements and thermostats, and connect new electric systems.",
         "_sl_service_icon": "heat",
         "_sl_service_badge": "",
@@ -2735,7 +2719,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Electric Hot Water",
-            "lead": "Element and thermostat repairs, off-peak changeovers and new system connections.",
+            "lead": "Element, thermostat or circuit, diagnosed and usually fixed in the same visit.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2748,10 +2732,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "11",
+            "kicker": "Element, thermostat or circuit",
+            "number": "",
             "heading": "Electric Hot Water",
-            "body": "When an electric hot water system stops, it's usually one of three things: the element, the thermostat, or the circuit feeding it. All three are ours to deal with, and all three are usually a same-visit fix.\n\nWe also handle changeovers to off-peak tariffs, which is worth doing if your system is on a continuous supply — heating a tank overnight on a controlled load tariff typically costs around half.\n\nFor a new system, we do the electrical side: the circuit, the isolator and the connection. We work alongside your plumber so it's one coordinated job rather than two trades blaming each other.",
+            "body": "When an electric hot water system stops, it's usually one of three things: the element, the thermostat, or the circuit feeding it. All three are ours to deal with, and all three are usually a same visit fix.\n\nWe also handle changeovers to off-peak tariffs, which is worth doing if your system is on continuous supply. Heating a tank overnight on a controlled load tariff typically costs around half.\n\nFor a new system we do the electrical side: the circuit, the isolator and the connection. We work alongside your plumber so it's one coordinated job rather than two trades blaming each other.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2763,9 +2747,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Electric Hot Water: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a hot water job includes.",
+            "heading_highlight": "",
+            "intro": "Diagnosis, parts, and the tariff set up properly afterwards.",
             "items": [
               {
                 "text": "Element and thermostat replacement"
@@ -2774,7 +2758,7 @@
                 "text": "No-hot-water fault diagnosis, same visit where possible"
               },
               {
-                "text": "Off-peak and controlled-load changeovers"
+                "text": "Off-peak and controlled load changeovers"
               },
               {
                 "text": "New system connection and isolation"
@@ -2783,7 +2767,7 @@
                 "text": "Circuit and breaker checked and correctly rated"
               },
               {
-                "text": "Timer and tariff set-up"
+                "text": "Timer and tariff set up"
               },
               {
                 "text": "Coordination with your plumber"
@@ -2799,12 +2783,11 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Electric Hot Water — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Hot water questions.",
             "faqs": [
               {
                 "question": "Is my hot water problem electrical or plumbing?",
-                "answer": "If there's no hot water at all and no leak, it's usually electrical — element or thermostat. Leaks, pressure problems and valve failures are plumbing. We'll tell you honestly which one it is rather than charging you for a call-out to say 'not mine'."
+                "answer": "If there's no hot water at all and no leak, it's usually electrical, meaning the element or the thermostat. Leaks, pressure problems and valve failures are plumbing. We'll tell you honestly which one it is rather than charging you for a call-out to say it isn't ours."
               },
               {
                 "question": "Should I switch to off-peak hot water?",
@@ -2823,9 +2806,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your hot water.",
-            "heading_highlight": "your hot water.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "No hot water?",
+            "intro": "Tell us the brand and roughly how old the unit is. That usually narrows it before we arrive.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2834,10 +2816,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2845,8 +2827,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Cold shower this morning?",
+            "lead": "Most electric hot water faults are a same visit fix.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -2865,7 +2847,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Split system supply, install and the dedicated circuit to run it properly.",
+        "_sl_service_tagline": "Sized to the room and given its own circuit, so it doesn't trip on the hot days.",
         "_sl_service_summary": "Split system supply and install, plus the dedicated circuit it needs to run properly.",
         "_sl_service_icon": "aircon",
         "_sl_service_badge": "",
@@ -2883,7 +2865,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Air Conditioning",
-            "lead": "Split system supply, install and the dedicated circuit to run it properly.",
+            "lead": "Sized to the room and given its own circuit, so it doesn't trip on the hot days.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -2896,10 +2878,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "12",
+            "kicker": "Sizing and circuits",
+            "number": "",
             "heading": "Air Conditioning",
-            "body": "A split system is only as good as its install. Undersize it and it runs flat out and never quite gets there; oversize it and it short-cycles, leaving the room cold and damp. We size to the room — glazing, orientation, insulation and ceiling height all count.\n\nThe electrical side matters just as much. Air conditioners need their own circuit with correctly rated protection; run one off a general power circuit and you'll be resetting the breaker every hot afternoon.\n\nWe handle supply and install, or install a unit you've already bought, and we'll site the outdoor unit somewhere that won't annoy you or the neighbours.",
+            "body": "A split system is only as good as its install. Undersize it and it runs flat out and never quite gets there. Oversize it and it short cycles, leaving the room cold and damp. We size to the room, because glazing, orientation, insulation and ceiling height all count.\n\nThe electrical side matters just as much. Air conditioners need their own circuit with correctly rated protection. Run one off a general power circuit and you'll be resetting the breaker every hot afternoon.\n\nWe handle supply and install, or install a unit you've already bought, and we'll site the outdoor unit somewhere that won't annoy you or the neighbours.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -2911,12 +2893,12 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Air Conditioning: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a split system install includes.",
+            "heading_highlight": "",
+            "intro": "Sizing, mounting, the dedicated circuit, and the old unit taken away.",
             "items": [
               {
-                "text": "Room-by-room sizing before we quote"
+                "text": "Room by room sizing before we quote"
               },
               {
                 "text": "Supply and install, or install your own unit"
@@ -2947,12 +2929,11 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Air Conditioning — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Air conditioning questions.",
             "faqs": [
               {
                 "question": "What size air conditioner do I need?",
-                "answer": "As a rough guide, about 0.15kW per square metre for a well-insulated room — but glazing, west-facing walls and high ceilings change that a lot. We measure and size properly rather than guessing from floor area alone."
+                "answer": "As a rough guide, about 0.15kW per square metre for a well insulated room. Glazing, west facing walls and high ceilings change that a lot, so we measure and size properly rather than guessing from floor area alone."
               },
               {
                 "question": "Do I need a dedicated circuit for a split system?",
@@ -2960,7 +2941,7 @@
               },
               {
                 "question": "Can you install a unit I bought online?",
-                "answer": "Yes. We'll check it's suitable for the room first, and let you know if the warranty requires anything specific from the installer."
+                "answer": "Yes. We'll check it suits the room first, and let you know if the warranty requires anything specific from the installer."
               }
             ]
           }
@@ -2971,9 +2952,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your air conditioning.",
-            "heading_highlight": "your air conditioning.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Price up a split system.",
+            "intro": "Tell us the room size and which way it faces. Both change the sizing.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -2982,10 +2962,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -2993,8 +2973,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "One room that never gets comfortable?",
+            "lead": "We'll size it properly rather than guessing from floor area.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -3006,15 +2986,15 @@
       "title": "Outdoor & Garden Lighting",
       "post_type": "service",
       "menu_order": 130,
-      "excerpt": "Path, garden, alfresco and security lighting — properly weatherproofed and zoned.",
+      "excerpt": "Path, garden, alfresco and security lighting, properly weatherproofed and zoned.",
       "terms": {
         "service_category": [
           "Residential"
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Path, garden, alfresco and security lighting that survives a Peninsula winter.",
-        "_sl_service_summary": "Path, garden, alfresco and security lighting — properly weatherproofed and zoned.",
+        "_sl_service_tagline": "Coastal rated fittings and buried conduit, so it survives a Peninsula winter.",
+        "_sl_service_summary": "Path, garden, alfresco and security lighting, properly weatherproofed and zoned.",
         "_sl_service_icon": "outdoor",
         "_sl_service_badge": "",
         "_sl_service_price_from": "",
@@ -3023,7 +3003,7 @@
       },
       "seo": {
         "title": "Outdoor & Garden Lighting | Spark Life Electrical, Frankston",
-        "desc": "Path, garden, alfresco and security lighting — properly weatherproofed and zoned. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
+        "desc": "Path, garden, alfresco and security lighting, properly weatherproofed and zoned. Licensed electricians across Frankston, Bayside & the Mornington Peninsula. Upfront fixed pricing. Call 0402 028 871."
       },
       "sections": [
         {
@@ -3031,7 +3011,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Outdoor & Garden Lighting",
-            "lead": "Path, garden, alfresco and security lighting that survives a Peninsula winter.",
+            "lead": "Coastal rated fittings and buried conduit, so it survives a Peninsula winter.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -3044,10 +3024,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "13",
+            "kicker": "Built for the weather",
+            "number": "",
             "heading": "Outdoor & Garden Lighting",
-            "body": "Outdoor lighting fails for one reason more than any other: fittings and connections that were never rated for the exposure they actually get. Salt air down here is unforgiving, and a fitting that's fine under a covered alfresco will corrode in eighteen months on an exposed fence line.\n\nWe spec IP-rated fittings to suit each position, run cable at proper depth in conduit, and use weatherproof connections rather than taping joints and hoping.\n\nZoning is where it gets good: path and step lighting on a timer, garden feature lighting on its own switch, sensor-driven security lighting at the entries. All of it dimmable and controllable if you want it.",
+            "body": "Outdoor lighting fails for one reason more than any other: fittings and connections that were never rated for the exposure they actually get. Salt air down here is unforgiving, and a fitting that's fine under a covered alfresco will corrode in eighteen months on an exposed fence line.\n\nWe spec IP rated fittings to suit each position, run cable at proper depth in conduit, and use weatherproof connections rather than taping joints and hoping.\n\nZoning is where it gets good. Path and step lighting on a timer, garden feature lighting on its own switch, sensor driven security lighting at the entries. All of it dimmable and app controlled if you want it.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -3059,12 +3039,12 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Outdoor & Garden Lighting: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What an outdoor lighting job includes.",
+            "heading_highlight": "",
+            "intro": "Rated fittings, buried conduit, weatherproof joints, and zoning to control it.",
             "items": [
               {
-                "text": "IP-rated fittings matched to each position"
+                "text": "IP rated fittings matched to each position"
               },
               {
                 "text": "Path, step and garden feature lighting"
@@ -3073,7 +3053,7 @@
                 "text": "Alfresco and entertaining area lighting"
               },
               {
-                "text": "Sensor-activated security lighting"
+                "text": "Sensor activated security lighting"
               },
               {
                 "text": "Cable at correct depth in conduit"
@@ -3085,7 +3065,7 @@
                 "text": "Timers, zones and app control"
               },
               {
-                "text": "Coastal-grade fittings for exposed positions"
+                "text": "Coastal grade fittings for exposed positions"
               }
             ]
           }
@@ -3095,20 +3075,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Outdoor & Garden Lighting — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Outdoor lighting questions.",
             "faqs": [
               {
                 "question": "Will outdoor lighting survive the salt air down here?",
-                "answer": "If it's specified properly, yes. We use marine-grade or coastal-rated fittings anywhere within reach of salt spray. It costs a little more up front and saves replacing everything in two years."
+                "answer": "If it's specified properly, yes. We use marine grade or coastal rated fittings anywhere within reach of salt spray. It costs a little more up front and saves replacing everything in two years."
               },
               {
                 "question": "Can outdoor lighting run on a timer?",
-                "answer": "Yes — timers, photocells that switch at dusk, or app control. Most people end up with path lighting on dusk-to-late and feature lighting on a switch they use when they're outside."
+                "answer": "Yes. Timers, photocells that switch at dusk, or app control. Most people end up with path lighting on dusk to late, and feature lighting on a switch they use when they're outside."
               },
               {
-                "question": "Is low-voltage garden lighting better?",
-                "answer": "For garden beds and path lighting it's often ideal — safer to work around and easier to extend later. For floodlighting and alfresco areas mains voltage usually makes more sense. We'll mix the two where it suits."
+                "question": "Is low voltage garden lighting better?",
+                "answer": "For garden beds and path lighting it's often ideal, and easier to extend later. For floodlighting and alfresco areas mains voltage usually makes more sense. We mix the two where it suits."
               }
             ]
           }
@@ -3119,9 +3098,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your outdoor lighting.",
-            "heading_highlight": "your outdoor lighting.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Light up the outside.",
+            "intro": "Tell us what you want lit and how exposed it is. Salt air changes what we spec.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -3130,10 +3108,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -3141,8 +3119,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Outdoor lights already corroding?",
+            "lead": "They were never rated for the position. We'll spec ones that last.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -3161,7 +3139,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Hard-wired network points and TV outlets — for when wifi just isn't cutting it.",
+        "_sl_service_tagline": "Cat6 to the rooms that drop out, terminated properly and tested run by run.",
         "_sl_service_summary": "Hard-wired network and TV points for home offices, streaming and dead wifi corners.",
         "_sl_service_icon": "data",
         "_sl_service_badge": "",
@@ -3179,7 +3157,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Data & TV Points",
-            "lead": "Hard-wired network points and TV outlets — for when wifi just isn't cutting it.",
+            "lead": "Cat6 to the rooms that drop out, terminated properly and tested run by run.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -3192,10 +3170,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "14",
+            "kicker": "Where wifi runs out",
+            "number": "",
             "heading": "Data & TV Points",
-            "body": "Wifi is fine until it isn't. A back bedroom behind two brick walls, a home office that drops mid-call, a TV that buffers every night at eight — those are cabling problems, and no amount of mesh gear fully solves them.\n\nWe run Cat6 data cabling to wherever you actually need it, terminate it properly into wall plates and a patch panel, and test every run. Access points get hard-wired back to the same point so your wifi has a solid backbone.\n\nTV points, antenna outlets and HDMI runs to wall-mounted screens all get done at the same time, with cabling concealed in the wall rather than in a plastic duct down the middle of it.",
+            "body": "Wifi is fine until it isn't. A back bedroom behind two brick walls, a home office that drops mid-call, a TV that buffers every night at eight. Those are cabling problems, and no amount of mesh gear fully solves them.\n\nWe run Cat6 data cabling to wherever you actually need it, terminate it properly into wall plates and a patch panel, and test every run. Access points get hard-wired back to the same place so your wifi has a solid backbone.\n\nTV points, antenna outlets and HDMI runs to wall mounted screens get done at the same time, with cabling concealed in the wall rather than in a plastic duct down the middle of it.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -3207,9 +3185,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Data & TV Points: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What a data install includes.",
+            "heading_highlight": "",
+            "intro": "Cable, plates, patch panel, and every run tested and labelled.",
             "items": [
               {
                 "text": "Cat6 data cabling to any room"
@@ -3227,10 +3205,10 @@
                 "text": "TV and antenna outlets"
               },
               {
-                "text": "HDMI runs to wall-mounted screens"
+                "text": "HDMI runs to wall mounted screens"
               },
               {
-                "text": "Cabling concealed in walls, not in surface duct"
+                "text": "Cabling concealed in walls, not surface duct"
               },
               {
                 "text": "NBN connection point relocation"
@@ -3243,19 +3221,18 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Data & TV Points — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Data and TV questions.",
             "faqs": [
               {
                 "question": "Is cabling really better than a mesh wifi system?",
-                "answer": "For anything that matters — video calls, working from home, a media room — yes. Mesh helps, but every hop halves your throughput. Hard-wiring the access points themselves gives you the best of both."
+                "answer": "For anything that matters, like video calls, working from home or a media room, yes. Mesh helps, but every hop halves your throughput. Hard-wiring the access points themselves gives you the best of both."
               },
               {
                 "question": "Can you run data cable in an existing house?",
-                "answer": "Usually. Single-storey homes with roof access are straightforward. Double-storey takes more planning, and occasionally a small access hole that we make good afterwards. We'll walk the route with you first."
+                "answer": "Usually. Single storey homes with roof access are straightforward. Double storey takes more planning and occasionally a small access hole that we make good afterwards. We walk the route with you first."
               },
               {
-                "question": "Can you hide the cables behind my wall-mounted TV?",
+                "question": "Can you hide the cables behind my wall mounted TV?",
                 "answer": "Yes. We run power and HDMI inside the wall to a recessed outlet behind the screen, so there's nothing visible at all."
               }
             ]
@@ -3267,9 +3244,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your data and TV points.",
-            "heading_highlight": "your data and TV points.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Get hard-wired.",
+            "intro": "Tell us which rooms drop out and where the modem lives.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -3278,10 +3254,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -3289,8 +3265,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Video calls dropping in the back room?",
+            "lead": "That's a cabling problem. More mesh units won't fix it.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -3309,7 +3285,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Pre-solar switchboard work, battery-ready wiring and post-install fault finding.",
+        "_sl_service_tagline": "Board prep, battery-ready wiring, and fault finding from someone with no system to sell you.",
         "_sl_service_summary": "Switchboard prep, battery-ready wiring and fault finding for existing solar systems.",
         "_sl_service_icon": "solar",
         "_sl_service_badge": "",
@@ -3327,7 +3303,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Solar & Battery Support",
-            "lead": "Pre-solar switchboard work, battery-ready wiring and post-install fault finding.",
+            "lead": "Board prep, battery-ready wiring, and fault finding from someone with no system to sell you.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -3340,10 +3316,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "15",
+            "kicker": "The electrical side",
+            "number": "",
             "heading": "Solar & Battery Support",
-            "body": "Plenty of homes down here already have panels on the roof, and the electrical side is often where the problems sit — a board that was never upgraded to suit, an inverter isolator in the wrong place, or export that quietly stopped working months ago.\n\nWe prepare switchboards for solar and battery installs, do the battery-ready wiring while the walls are already open during a renovation, and diagnose systems that aren't producing what they should.\n\nWe're not chasing solar sales. If your system is fine and the problem is your retailer's tariff, we'll tell you that.",
+            "body": "Plenty of homes down here already have panels on the roof, and the electrical side is often where the problems sit. A board that was never upgraded to suit, an inverter isolator in the wrong place, or export that quietly stopped working months ago.\n\nWe prepare switchboards for solar and battery installs, run battery-ready wiring while the walls are already open during a renovation, and diagnose systems that aren't producing what they should.\n\nWe're not chasing solar sales. If your system is fine and the problem is your retailer's tariff, we'll tell you that.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -3355,9 +3331,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Solar & Battery Support: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What solar and battery work covers.",
+            "heading_highlight": "",
+            "intro": "Board prep, battery-ready cabling, and honest fault finding on what's already there.",
             "items": [
               {
                 "text": "Switchboard upgrades to suit solar and battery"
@@ -3391,20 +3367,19 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Solar & Battery Support — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Solar and battery questions.",
             "faqs": [
               {
-                "question": "My solar production has dropped — what's wrong?",
-                "answer": "Most commonly a tripped or failed isolator, a string fault, or an inverter that's been in an error state for weeks without anyone noticing. All are testable. Shading from a grown tree accounts for a surprising number too."
+                "question": "My solar production has dropped. What's wrong?",
+                "answer": "Most commonly a tripped or failed isolator, a string fault, or an inverter that's been sitting in an error state for weeks without anyone noticing. All are testable. Shading from a grown tree accounts for a surprising number too."
               },
               {
                 "question": "Should I wire for a battery now even if I'm not buying one yet?",
-                "answer": "If your walls are open for a renovation, absolutely — the cabling is cheap while everything's accessible and expensive once it's plastered. It doesn't commit you to anything."
+                "answer": "If your walls are open for a renovation, absolutely. The cabling is cheap while everything's accessible and expensive once it's plastered, and it doesn't commit you to anything."
               },
               {
                 "question": "Do you sell and install solar panels?",
-                "answer": "We don't sell systems. We do the electrical work around them — switchboards, battery-ready wiring, integration and fault finding — which means our advice on your existing system comes with nothing attached."
+                "answer": "We don't sell systems. We do the electrical work around them, so our advice on your existing setup comes with nothing attached."
               }
             ]
           }
@@ -3415,9 +3390,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your solar setup.",
-            "heading_highlight": "your solar setup.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Something not right with your solar?",
+            "intro": "Tell us what your monitoring shows, or what it stopped showing.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -3426,10 +3400,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -3437,8 +3411,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Production dropped and nobody can say why?",
+            "lead": "We don't sell systems, so the diagnosis comes with nothing attached.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }
@@ -3457,7 +3431,7 @@
         ]
       },
       "meta": {
-        "_sl_service_tagline": "Shops, offices and warehouses — fitouts, maintenance and test and tag.",
+        "_sl_service_tagline": "Fitouts and maintenance scheduled around your trading hours, not ours.",
         "_sl_service_summary": "Fitouts, maintenance, emergency lighting and test and tag for local businesses.",
         "_sl_service_icon": "building",
         "_sl_service_badge": "",
@@ -3475,7 +3449,7 @@
           "data": {
             "eyebrow": "Our services",
             "title": "Commercial & Office Fitouts",
-            "lead": "Shops, offices and warehouses — fitouts, maintenance and test and tag.",
+            "lead": "Fitouts and maintenance scheduled around your trading hours, not ours.",
             "show_actions": "1",
             "primary_btn_text": "Get a free quote",
             "primary_btn_url": "/contact/",
@@ -3488,10 +3462,10 @@
           "type": "service_row",
           "data": {
             "bg": "white",
-            "kicker": "What's involved",
-            "number": "16",
+            "kicker": "Around your trading hours",
+            "number": "",
             "heading": "Commercial & Office Fitouts",
-            "body": "We look after small and medium commercial sites around the Peninsula — shopfronts, offices, cafés, warehouses and light industrial. The work is the same care as the residential side, scheduled around your trading hours rather than ours.\n\nFitouts cover the lot: lighting design, power layout, data, three-phase machinery, and the switchboard to carry it. Maintenance covers what keeps you compliant — emergency and exit lighting testing, test and tag, and thermal checks on the board.\n\nWe work after hours where it means you don't lose a trading day, and we'll give you a maintenance schedule so compliance testing doesn't come as a surprise.",
+            "body": "We look after small and medium commercial sites around the Peninsula. Shopfronts, offices, cafés, warehouses and light industrial. Same care as the residential side, scheduled around your trading hours rather than ours.\n\nFitouts cover the lot: lighting design, power layout, data, three-phase machinery, and the switchboard to carry it. Maintenance covers what keeps you compliant, including emergency and exit lighting testing, test and tag, and thermal checks on the board.\n\nWe work after hours where it means you don't lose a trading day, and we'll put you on a maintenance schedule so compliance testing never arrives as a surprise.",
             "image_url": "",
             "image_right": "1",
             "button_text": "Get a fixed price",
@@ -3503,9 +3477,9 @@
           "data": {
             "bg": "paper",
             "kicker": "What you get",
-            "heading": "Commercial & Office Fitouts: what's included.",
-            "heading_highlight": "what's included.",
-            "intro": "No line items that appear at the end. This is what's in the price.",
+            "heading": "What commercial work covers.",
+            "heading_highlight": "",
+            "intro": "Fitouts, maintenance, and the compliance testing that keeps you covered.",
             "items": [
               {
                 "text": "Shop, office and warehouse fitouts"
@@ -3526,7 +3500,7 @@
                 "text": "Switchboard upgrades and thermal imaging"
               },
               {
-                "text": "After-hours work to protect trading hours"
+                "text": "After hours work to protect trading hours"
               },
               {
                 "text": "Scheduled maintenance so compliance stays current"
@@ -3539,8 +3513,7 @@
           "data": {
             "bg": "white",
             "kicker": "Good questions",
-            "heading": "Commercial & Office Fitouts — what people ask.",
-            "heading_highlight": "what people ask.",
+            "heading": "Commercial questions.",
             "faqs": [
               {
                 "question": "Do you work outside business hours?",
@@ -3548,11 +3521,11 @@
               },
               {
                 "question": "How often does emergency lighting need testing?",
-                "answer": "Every six months, with a 90-minute discharge test annually, and records kept. We can put you on a schedule so it's handled without you having to track it."
+                "answer": "Every six months, with a 90 minute discharge test annually, and records kept. We can put you on a schedule so it's handled without you having to track it."
               },
               {
                 "question": "Can you handle test and tag for our office?",
-                "answer": "Yes, including a documented register of every item, its test date and next due date — the thing auditors actually ask for."
+                "answer": "Yes, including a documented register of every item, its test date and next due date. That's the thing auditors actually ask for."
               }
             ]
           }
@@ -3563,9 +3536,8 @@
             "bg": "paper",
             "anchor": "quote",
             "kicker": "Free quote",
-            "heading": "Let's sort your site.",
-            "heading_highlight": "your site.",
-            "intro": "Tell us what's going on and we'll come back with a clear, fixed price — usually within the hour during business times.",
+            "heading": "Talk through your site.",
+            "intro": "Tell us the trade, the hours you can't afford to lose, and what needs doing.",
             "show_details": "1",
             "preselect_service": "1"
           }
@@ -3574,10 +3546,10 @@
           "type": "services_list",
           "data": {
             "bg": "white",
-            "kicker": "More from Spark Life",
-            "heading": "Other things we do.",
-            "heading_highlight": "we do.",
-            "intro": "Have a look at the rest of what we do, or give us a bell.",
+            "kicker": "Also on the van",
+            "heading": "The rest of what we do.",
+            "heading_highlight": "what we do.",
+            "intro": "",
             "exclude_current": "1",
             "limit": "6"
           }
@@ -3585,8 +3557,8 @@
         {
           "type": "cta_band",
           "data": {
-            "title": "Ready to spark some life into your home?",
-            "lead": "Licensed, insured and local. Upfront pricing on every job.",
+            "title": "Fitout, maintenance or compliance testing?",
+            "lead": "We work after hours so you don't lose a trading day.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/"
           }

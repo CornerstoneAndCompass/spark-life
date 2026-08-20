@@ -32,9 +32,8 @@ if (!$services) return;
     <?php endif; ?>
 
     <div class="svc-grid">
-      <?php foreach ($services as $i => $s) : ?>
+      <?php foreach ($services as $s) : ?>
       <a class="svc-card" href="<?php echo esc_url($s['url']); ?>">
-        <span class="svc-card__num"><?php echo esc_html(sprintf('%02d', $i + 1)); ?></span>
         <span class="svc-card__icon"><?php echo sl_icon($s['icon'], 26); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
         <span class="svc-card__body">
           <strong class="svc-card__name"><?php echo esc_html($s['title']); ?></strong>

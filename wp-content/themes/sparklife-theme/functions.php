@@ -26,7 +26,7 @@ function sl_setup() {
     add_theme_support('custom-logo', array('flex-height' => true, 'flex-width' => true));
     register_nav_menus(array(
         'primary'        => __('Primary Menu', 'sparklife'),
-        'footer_company' => __('Footer — Company', 'sparklife'),
+        'footer_company' => __('Footer: Company', 'sparklife'),
     ));
 }
 add_action('after_setup_theme', 'sl_setup');
@@ -143,7 +143,7 @@ function sl_render_sections($post_id = 0) {
         return;
     }
     echo '<div class="wrap" style="padding:80px 0"><p>' .
-        esc_html__('The CC Fields plugin is not active — page sections cannot be rendered.', 'sparklife') .
+        esc_html__('The CC Fields plugin is not active, so page sections cannot be rendered.', 'sparklife') .
         '</p></div>';
 }
 

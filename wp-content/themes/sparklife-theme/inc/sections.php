@@ -92,7 +92,7 @@ function sl_registered_sections() {
         /* ─── Services bento (home) ────────────────────────────────── */
         'services_bento' => array(
             'label' => 'Services Bento',
-            'description' => 'The bento grid of service cards. Pulls live Services (CPT) — the “Feature on home page” and “Accent card” flags on each service control the large dark and blue tiles.',
+            'description' => 'The bento grid of service cards. Pulls live Services (CPT). The “Feature on home page” and “Accent card” flags on each service control the large dark and blue tiles.',
             'fields' => array(
                 sl_bg_field('white'),
                 array('name' => 'kicker', 'label' => 'Kicker', 'type' => 'text', 'default' => 'What we do'),
@@ -184,7 +184,7 @@ function sl_registered_sections() {
         /* ─── Service row (alternating image / prose) ──────────────── */
         'service_row' => array(
             'label' => 'Service Row',
-            'description' => 'Image beside a heading and prose — alternate the image side down a service page.',
+            'description' => 'Image beside a heading and prose. Alternate the image side down a service page.',
             'fields' => array(
                 sl_bg_field('white'),
                 array('name' => 'kicker', 'label' => 'Kicker', 'type' => 'text', 'default' => ''),
@@ -219,7 +219,7 @@ function sl_registered_sections() {
         /* ─── Reviews ─────────────────────────────────────────────── */
         'reviews' => array(
             'label' => 'Reviews',
-            'description' => 'Grid of review cards — tick “Highlight” on one to render it dark.',
+            'description' => 'Grid of review cards. Tick “Highlight” on one to render it dark.',
             'fields' => array(
                 sl_bg_field('paper'),
                 array('name' => 'kicker', 'label' => 'Kicker', 'type' => 'text', 'default' => ''),
