@@ -34,7 +34,7 @@ $trust = (isset($section_data['trust']) && is_array($section_data['trust'])) ? $
 $card_tag   = sl_field($section_data, 'card_tag');
 $card_title = sl_field($section_data, 'card_title');
 $card_text  = sl_field($section_data, 'card_text');
-$card_btn   = sl_field($section_data, 'card_btn_text', __('Book a visit', 'sparklife'));
+$card_btn   = sl_field($section_data, 'card_btn_text', __('Book a job', 'sparklife'));
 $card_url   = sl_link(sl_field($section_data, 'card_btn_url'), '/contact/');
 $card_foot  = sl_field($section_data, 'card_foot');
 

@@ -52,7 +52,7 @@ function sl_registered_sections() {
                 array('name' => 'card_tag', 'label' => 'Card tag', 'type' => 'text', 'default' => '⚡ Fast quote'),
                 array('name' => 'card_title', 'label' => 'Card title', 'type' => 'text', 'default' => ''),
                 array('name' => 'card_text', 'label' => 'Card text', 'type' => 'textarea', 'default' => ''),
-                array('name' => 'card_btn_text', 'label' => 'Card button text', 'type' => 'text', 'default' => 'Book a visit'),
+                array('name' => 'card_btn_text', 'label' => 'Card button text', 'type' => 'text', 'default' => 'Book a job'),
                 array('name' => 'card_btn_url', 'label' => 'Card button URL', 'type' => 'text', 'default' => '#quote'),
                 array('name' => 'card_foot', 'label' => 'Card footer line', 'type' => 'textarea', 'default' => ''),
             ),
