@@ -13,7 +13,7 @@
  */
 if (!defined('ABSPATH')) exit;
 
-define('SL_VERSION', '1.0.0');
+define('SL_VERSION', '1.0.1');
 define('SL_PATH', get_template_directory());
 define('SL_URL',  get_template_directory_uri());
 

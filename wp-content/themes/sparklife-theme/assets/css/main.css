@@ -564,7 +564,11 @@ ul,ol{list-style:none}
   margin-bottom:8px}
 .step p{color:var(--grey);font-size:.99rem}
 .step::after{
-  content:"";position:absolute;top:48px;right:-20px;width:20px;height:2px;
+  /* Centred on the card rather than a fixed offset from its top, so the dashes
+     sit level with the middle of the row whatever the copy length. Grid items
+     stretch to equal height, so all connectors line up. */
+  content:"";position:absolute;top:50%;transform:translateY(-50%);
+  right:-20px;width:20px;height:2px;
   background:repeating-linear-gradient(90deg,var(--blue) 0 6px,transparent 6px 12px);
 }
 .step:last-child::after{display:none}
