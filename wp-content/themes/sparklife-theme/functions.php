@@ -92,8 +92,8 @@ function sl_default_vars() {
     return array(
         'company_name'     => 'Spark Life Electrical Contractors',
         'company_short'    => 'Spark Life',
-        'company_phone'    => '0402 028 871',
-        'company_tel'      => '0402028871',
+        'company_phone'    => '0434 343 687',
+        'company_tel'      => '0434343687',
         'company_email'    => 'info@spark-life.com.au',
         'company_address'  => '6 Magnolia Court, Frankston, VIC 3199',
         'company_suburb'   => 'Frankston',
@@ -132,13 +132,13 @@ if (!function_exists('sl_get_var')) {
     }
 }
 
-/** tel: href from a display number ("0402 028 871" → "0402028871"). */
+/** tel: href from a display number ("0434 343 687" → "0434343687"). */
 function sl_tel($number = '') {
     if (!$number) $number = sl_get_var('company_tel', sl_get_var('company_phone'));
     return preg_replace('/[^0-9+]/', '', $number);
 }
 
-/** AU phone in E.164 for schema (0402028871 → +61402028871). */
+/** AU phone in E.164 for schema (0434343687 → +61434343687). */
 function sl_phone_e164() {
     $tel = preg_replace('/[^0-9]/', '', sl_get_var('company_tel', sl_get_var('company_phone')));
     if (strpos($tel, '0') === 0) $tel = '61' . substr($tel, 1);

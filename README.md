@@ -117,7 +117,7 @@ then clear the host's page cache.
 The static demo used placeholders, and they carried through to the seed data. Update these
 in **CC Fields → Global Variables** (or in `data/content.json` before seeding):
 
-- ~~`company_phone` / `company_tel`~~ — set to **0402 028 871**
+- ~~`company_phone` / `company_tel`~~ — set to **0434 343 687**
 - ~~`company_abn`~~ — set to **78 670 677 141**
 - `company_email` — `info@spark-life.com.au`, confirm it exists and receives mail
 - `company_address` — 6 Magnolia Court, Frankston VIC 3199
