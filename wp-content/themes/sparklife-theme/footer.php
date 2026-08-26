@@ -25,7 +25,6 @@ $services = sl_get_services(array('limit' => 6));
 $company_links = array(
     array('label' => __('About Spark Life', 'sparklife'), 'url' => home_url('/about/')),
     array('label' => __('Our projects', 'sparklife'),     'url' => home_url('/projects/')),
-    array('label' => __('Reviews', 'sparklife'),          'url' => home_url('/reviews/')),
     array('label' => __('Service areas', 'sparklife'),    'url' => home_url('/service-areas/')),
     array('label' => __('Contact', 'sparklife'),          'url' => home_url('/contact/')),
 );

@@ -92,8 +92,11 @@ function sl_default_vars() {
         'owner_initials'   => 'LG',
         'owner_role'       => 'Owner & licensed electrician',
         'founded_year'     => '2018',
-        'review_score'     => '4.9',
-        'review_count'     => '200',
+        // Blank until real Google reviews exist. Both the footer rating line and
+        // the LocalBusiness aggregateRating only render when these are set, so
+        // leaving them empty is what keeps unverified rating data off the site.
+        'review_score'     => '',
+        'review_count'     => '',
         'booking_url'      => '',
         'ga4_id'           => '',
         'facebook_url'     => '',
@@ -171,7 +174,6 @@ function sl_nav_items() {
         array('label' => 'Services', 'url' => home_url('/services/'), 'services' => true),
         array('label' => 'About',    'url' => home_url('/about/')),
         array('label' => 'Projects', 'url' => home_url('/projects/')),
-        array('label' => 'Reviews',  'url' => home_url('/reviews/')),
         array('label' => 'Contact',  'url' => home_url('/contact/')),
     ));
 }

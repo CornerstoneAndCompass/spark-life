@@ -16,8 +16,8 @@
     "owner_initials": "LG",
     "owner_role": "Owner & licensed electrician",
     "founded_year": "2018",
-    "review_score": "4.9",
-    "review_count": "200",
+    "review_score": "",
+    "review_count": "",
     "service_area_list": "Frankston\nFrankston South\nFrankston North\nSeaford\nCarrum Downs\nLangwarrin\nMount Eliza\nMornington\nMount Martha\nBaxter\nSkye\nSandhurst\nCranbourne\nSomerville\nKaringal\nChelsea",
     "booking_url": "",
     "ga4_id": "",
@@ -50,9 +50,9 @@
             "secondary_btn_url": "",
             "trust": [
               {
-                "value": "",
-                "label": "200+ five-star jobs",
-                "stars": "1"
+                "value": "Licensed",
+                "label": "& insured, REC 27391",
+                "stars": "0"
               },
               {
                 "value": "Same-day",
@@ -127,10 +127,10 @@
                 "label": "Happy homes wired"
               },
               {
-                "number": "4.9",
+                "number": "6",
                 "suffix": "",
-                "decimals": "1",
-                "label": "Average star rating"
+                "decimals": "0",
+                "label": "Days a week on the road"
               },
               {
                 "number": "60",
@@ -182,36 +182,6 @@
             "image_right": "0",
             "button_text": "More about us",
             "button_url": "/about/"
-          }
-        },
-        {
-          "type": "reviews",
-          "data": {
-            "bg": "paper",
-            "kicker": "What people say",
-            "heading": "Reviews from around the Peninsula.",
-            "heading_highlight": "the Peninsula.",
-            "intro": "",
-            "reviews": [
-              {
-                "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
-                "name": "Sarah K.",
-                "subtitle": "Frankston South",
-                "highlight": "0"
-              },
-              {
-                "text": "Got three quotes for downlights through the whole house. Spark Life wasn't the cheapest by a dollar, but the communication was next level. Worth every cent.",
-                "name": "Marcus D.",
-                "subtitle": "Mount Eliza",
-                "highlight": "1"
-              },
-              {
-                "text": "Had power tripping for weeks. Liam found the fault other sparkies missed and had us sorted same day. Genuine, funny, and properly good at his job.",
-                "name": "Priya T.",
-                "subtitle": "Seaford",
-                "highlight": "0"
-              }
-            ]
           }
         },
         {
@@ -385,10 +355,10 @@
                 "label": "Happy homes wired"
               },
               {
-                "number": "4.9",
+                "number": "6",
                 "suffix": "",
-                "decimals": "1",
-                "label": "Average star rating"
+                "decimals": "0",
+                "label": "Days a week on the road"
               },
               {
                 "number": "60",
@@ -533,10 +503,10 @@
                 "label": "Happy homes wired"
               },
               {
-                "number": "4.9",
+                "number": "6",
                 "suffix": "",
-                "decimals": "1",
-                "label": "Average star rating"
+                "decimals": "0",
+                "label": "Days a week on the road"
               },
               {
                 "number": "60",
@@ -591,54 +561,6 @@
             "heading_highlight": "important bit.",
             "max_width": "normal",
             "content": "<p>Spark Life Electrical Contractors is a Registered Electrical Contractor in Victoria, <strong>REC 27391</strong>, carrying full public liability insurance.</p><p>Every job we complete is wired to the AS/NZS 3000 wiring rules and issued with a Certificate of Electrical Safety. You get a copy and so does the electrical safety regulator. It's the document that proves the work in your home was done properly, and it's the one thing an insurer will ask for if you ever need to claim.</p><p>If an electrician can't produce a REC number and a certificate, that should end the conversation.</p>"
-          }
-        },
-        {
-          "type": "reviews",
-          "data": {
-            "bg": "paper",
-            "kicker": "What people say",
-            "heading": "Six recent jobs, in their words.",
-            "heading_highlight": "in their words.",
-            "intro": "",
-            "reviews": [
-              {
-                "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
-                "name": "Sarah K.",
-                "subtitle": "Frankston South",
-                "highlight": "0"
-              },
-              {
-                "text": "Got three quotes for downlights through the whole house. Spark Life wasn't the cheapest by a dollar, but the communication was next level. Worth every cent.",
-                "name": "Marcus D.",
-                "subtitle": "Mount Eliza",
-                "highlight": "1"
-              },
-              {
-                "text": "Had power tripping for weeks. Liam found the fault other sparkies missed and had us sorted same day. Genuine, funny, and properly good at his job.",
-                "name": "Priya T.",
-                "subtitle": "Seaford",
-                "highlight": "0"
-              },
-              {
-                "text": "Booked in an EV charger and expected a nightmare. Load check done first, cable run beautifully to the garage, app set up before he left. Faultless.",
-                "name": "Dan R.",
-                "subtitle": "Mornington",
-                "highlight": "0"
-              },
-              {
-                "text": "Texted at 7am when a switch started smelling hot. He talked me through turning the circuit off, was here by 11, and had it repaired the same visit.",
-                "name": "Helen W.",
-                "subtitle": "Carrum Downs",
-                "highlight": "0"
-              },
-              {
-                "text": "We rewired a 1950s place in stages while living in it. Never once lost the kitchen overnight. Planned properly, priced properly, no surprises.",
-                "name": "Tom & Ellie",
-                "subtitle": "Langwarrin",
-                "highlight": "0"
-              }
-            ]
           }
         },
         {
@@ -735,54 +657,6 @@
           }
         },
         {
-          "type": "reviews",
-          "data": {
-            "bg": "paper",
-            "kicker": "What people say",
-            "heading": "Reviews from around the Peninsula.",
-            "heading_highlight": "the Peninsula.",
-            "intro": "",
-            "reviews": [
-              {
-                "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
-                "name": "Sarah K.",
-                "subtitle": "Frankston South",
-                "highlight": "0"
-              },
-              {
-                "text": "Got three quotes for downlights through the whole house. Spark Life wasn't the cheapest by a dollar, but the communication was next level. Worth every cent.",
-                "name": "Marcus D.",
-                "subtitle": "Mount Eliza",
-                "highlight": "1"
-              },
-              {
-                "text": "Had power tripping for weeks. Liam found the fault other sparkies missed and had us sorted same day. Genuine, funny, and properly good at his job.",
-                "name": "Priya T.",
-                "subtitle": "Seaford",
-                "highlight": "0"
-              },
-              {
-                "text": "Booked in an EV charger and expected a nightmare. Load check done first, cable run beautifully to the garage, app set up before he left. Faultless.",
-                "name": "Dan R.",
-                "subtitle": "Mornington",
-                "highlight": "0"
-              },
-              {
-                "text": "Texted at 7am when a switch started smelling hot. He talked me through turning the circuit off, was here by 11, and had it repaired the same visit.",
-                "name": "Helen W.",
-                "subtitle": "Carrum Downs",
-                "highlight": "0"
-              },
-              {
-                "text": "We rewired a 1950s place in stages while living in it. Never once lost the kitchen overnight. Planned properly, priced properly, no surprises.",
-                "name": "Tom & Ellie",
-                "subtitle": "Langwarrin",
-                "highlight": "0"
-              }
-            ]
-          }
-        },
-        {
           "type": "quote_form",
           "data": {
             "bg": "paper",
@@ -802,159 +676,6 @@
           "data": {
             "title": "Got a job like one of these?",
             "lead": "Tell us what you're planning and we'll price it properly.",
-            "primary_btn_text": "Get your free quote",
-            "primary_btn_url": "/contact/",
-            "secondary_btn_text": "",
-            "secondary_btn_url": ""
-          }
-        }
-      ]
-    },
-    {
-      "slug": "reviews",
-      "title": "Reviews",
-      "parent": null,
-      "menu_order": 4,
-      "excerpt": "What Frankston and Mornington Peninsula homeowners say about Spark Life Electrical Contractors.",
-      "seo": {
-        "title": "Reviews | Spark Life Electrical, Frankston",
-        "desc": "Rated 4.9/5 by local homeowners. Read what Frankston and Mornington Peninsula customers say about Spark Life Electrical Contractors."
-      },
-      "sections": [
-        {
-          "type": "pagehero",
-          "data": {
-            "eyebrow": "What people say",
-            "title": "What the neighbours say.",
-            "title_highlight": "the neighbours say.",
-            "lead": "Rated 4.9 out of 5 by local homeowners across Frankston and the Peninsula.",
-            "show_actions": "1",
-            "primary_btn_text": "Get a free quote",
-            "primary_btn_url": "/contact/",
-            "show_breadcrumb": "1"
-          }
-        },
-        {
-          "type": "reviews",
-          "data": {
-            "bg": "white",
-            "kicker": "Reviews",
-            "heading": "Every one of these is a local job.",
-            "heading_highlight": "a local job.",
-            "intro": "",
-            "reviews": [
-              {
-                "text": "Liam upgraded our ancient switchboard and replaced every smoke alarm in a morning. On time, explained everything, left the place spotless. Couldn't recommend higher.",
-                "name": "Sarah K.",
-                "subtitle": "Frankston South",
-                "highlight": "0"
-              },
-              {
-                "text": "Got three quotes for downlights through the whole house. Spark Life wasn't the cheapest by a dollar, but the communication was next level. Worth every cent.",
-                "name": "Marcus D.",
-                "subtitle": "Mount Eliza",
-                "highlight": "1"
-              },
-              {
-                "text": "Had power tripping for weeks. Liam found the fault other sparkies missed and had us sorted same day. Genuine, funny, and properly good at his job.",
-                "name": "Priya T.",
-                "subtitle": "Seaford",
-                "highlight": "0"
-              },
-              {
-                "text": "Booked in an EV charger and expected a nightmare. Load check done first, cable run beautifully to the garage, app set up before he left. Faultless.",
-                "name": "Dan R.",
-                "subtitle": "Mornington",
-                "highlight": "0"
-              },
-              {
-                "text": "Texted at 7am when a switch started smelling hot. He talked me through turning the circuit off, was here by 11, and had it repaired the same visit.",
-                "name": "Helen W.",
-                "subtitle": "Carrum Downs",
-                "highlight": "0"
-              },
-              {
-                "text": "We rewired a 1950s place in stages while living in it. Never once lost the kitchen overnight. Planned properly, priced properly, no surprises.",
-                "name": "Tom & Ellie",
-                "subtitle": "Langwarrin",
-                "highlight": "0"
-              }
-            ]
-          }
-        },
-        {
-          "type": "why_stats",
-          "data": {
-            "bg": "ink",
-            "kicker": "Why Spark Life",
-            "heading": "Why people call us back.",
-            "intro": "We started Spark Life because too many people had a story about a sparky who never showed, never called, or left a mess behind. Doing the opposite of that is most of the job.",
-            "items": [
-              {
-                "title": "On time, every time.",
-                "desc": "We text when we're on the way. No all day window where you write off a Tuesday waiting."
-              },
-              {
-                "title": "Upfront fixed pricing.",
-                "desc": "You approve the price before we lift a tool. What we quote is what you pay."
-              },
-              {
-                "title": "Spotless finish.",
-                "desc": "Drop sheets down, mess taken with us, like we were never there."
-              },
-              {
-                "title": "Fully licensed and insured.",
-                "desc": "REC 27391, full public liability, and every job to the AS/NZS 3000 wiring rules."
-              }
-            ],
-            "stats": [
-              {
-                "number": "200",
-                "suffix": "+",
-                "decimals": "0",
-                "label": "Happy homes wired"
-              },
-              {
-                "number": "4.9",
-                "suffix": "",
-                "decimals": "1",
-                "label": "Average star rating"
-              },
-              {
-                "number": "60",
-                "suffix": "min",
-                "decimals": "0",
-                "label": "Typical reply time"
-              },
-              {
-                "number": "100",
-                "suffix": "%",
-                "decimals": "0",
-                "label": "Workmanship guaranteed"
-              }
-            ]
-          }
-        },
-        {
-          "type": "quote_form",
-          "data": {
-            "bg": "paper",
-            "anchor": "quote",
-            "kicker": "Free quote",
-            "heading": "Let's get your place sorted.",
-            "heading_highlight": "place sorted.",
-            "intro": "Fill in a few details and we'll text you back, usually within the hour during business times. Prefer to talk? Give us a bell.",
-            "show_details": "1",
-            "preselect_service": "0",
-            "form_button_text": "Send my request ⚡",
-            "form_note": "No spam, ever. We only use your details to quote your job."
-          }
-        },
-        {
-          "type": "cta_band",
-          "data": {
-            "title": "Want to be the next one?",
-            "lead": "Tell us what needs doing and we'll get you a price.",
             "primary_btn_text": "Get your free quote",
             "primary_btn_url": "/contact/",
             "secondary_btn_text": "",
