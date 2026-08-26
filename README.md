@@ -118,7 +118,7 @@ The static demo used placeholders, and they carried through to the seed data. Up
 in **CC Fields → Global Variables** (or in `data/content.json` before seeding):
 
 - ~~`company_phone` / `company_tel`~~ — set to **0402 028 871**
-- `company_abn` — currently **00 000 000 000**
+- ~~`company_abn`~~ — set to **78 670 677 141**
 - `company_email` — `info@spark-life.com.au`, confirm it exists and receives mail
 - `company_address` — 6 Magnolia Court, Frankston VIC 3199
 - `rec_license` — **REC 27391**, confirm it's the real registration number
