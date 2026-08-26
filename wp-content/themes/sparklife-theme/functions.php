@@ -100,7 +100,7 @@ function sl_default_vars() {
         'company_region'   => 'Frankston, Bayside & the Mornington Peninsula',
         'company_hours'    => "Mon–Sat 7am–6pm\nSunday closed",
         'company_abn'      => '78 670 677 141',
-        'rec_license'      => 'REC 27391',
+        'rec_license'      => 'REC 27891',
         'owner_name'       => 'Liam',
         'owner_initials'   => 'LG',
         'owner_role'       => 'Owner & licensed electrician',
