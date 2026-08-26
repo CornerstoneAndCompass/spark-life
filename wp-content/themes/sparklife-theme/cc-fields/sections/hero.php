@@ -38,7 +38,7 @@ $card_btn   = sl_field($section_data, 'card_btn_text', __('Book a job', 'sparkli
 $card_url   = sl_link(sl_field($section_data, 'card_btn_url'), '/contact/');
 $card_foot  = sl_field($section_data, 'card_foot');
 
-$logo     = SL_URL . '/assets/img/logo.png';
+$logo     = sl_logo_url();
 $initials = sl_get_var('owner_initials');
 ?>
 <section class="hero">

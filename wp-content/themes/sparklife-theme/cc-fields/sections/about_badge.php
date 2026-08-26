@@ -15,7 +15,7 @@ $is_ink    = ($bg === 'ink' || $bg === 'blue');
 
 $image = sl_image($section_data, 'image');
 $is_photo = ($image !== '');
-if (!$is_photo) $image = SL_URL . '/assets/img/logo.png';
+if (!$is_photo) $image = sl_logo_url();
 
 $image_right = sl_on(sl_field($section_data, 'image_right', '0'));
 $btn_text = sl_field($section_data, 'button_text');

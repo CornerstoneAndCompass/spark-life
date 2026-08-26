@@ -14,7 +14,7 @@ $rec      = sl_get_var('rec_license');
 $region   = sl_get_var('company_region');
 $name     = sl_get_var('company_name', get_bloginfo('name'));
 $short    = sl_get_var('company_short', $name);
-$logo     = SL_URL . '/assets/img/logo.png';
+$logo     = sl_logo_url();
 $quote_url = home_url('/contact/');
 
 $nav_items = sl_nav_items();
@@ -31,7 +31,6 @@ $current   = trailingslashit(strtok($_SERVER['REQUEST_URI'], '?'));
 <?php wp_body_open(); ?>
 <a class="skip-link" href="#main"><?php esc_html_e('Skip to content', 'sparklife'); ?></a>
 
-<!-- ============ TOP BAR ============ -->
 <div class="topbar">
   <div class="wrap topbar__inner">
     <p class="topbar__msg">
@@ -51,7 +50,6 @@ $current   = trailingslashit(strtok($_SERVER['REQUEST_URI'], '?'));
   </div>
 </div>
 
-<!-- ============ HEADER ============ -->
 <header class="header" id="header">
   <div class="wrap header__inner">
     <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="<?php echo esc_attr($name); ?>">
@@ -101,7 +99,6 @@ $current   = trailingslashit(strtok($_SERVER['REQUEST_URI'], '?'));
               </div>
             </div>
           </div>
-          <!-- Mobile only: the mega-menu collapses to a plain sub-list. -->
           <div class="nav__sub">
             <?php foreach ($services as $s) : ?>
             <a class="nav__sublink" href="<?php echo esc_url($s['url']); ?>"><?php echo esc_html($s['title']); ?></a>

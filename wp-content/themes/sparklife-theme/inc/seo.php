@@ -78,9 +78,8 @@ function sl_seo_head() {
     if (!$img && $singular && has_post_thumbnail($pid)) {
         $img = get_the_post_thumbnail_url($pid, 'large');
     }
-    if (!$img) $img = SL_URL . '/assets/img/logo.png';
+    if (!$img) $img = sl_logo_url();
 
-    echo "\n<!-- Spark Life SEO -->\n";
     if (!$connector) {
         if ($desc) echo '<meta name="description" content="' . esc_attr($desc) . '" />' . "\n";
         echo '<link rel="canonical" href="' . esc_url($url) . '" />' . "\n";
@@ -108,8 +107,8 @@ function sl_seo_head() {
         'url'        => $home,
         'telephone'  => sl_phone_e164(),
         'email'      => sl_get_var('company_email'),
-        'image'      => SL_URL . '/assets/img/logo.png',
-        'logo'       => SL_URL . '/assets/img/logo.png',
+        'image'      => sl_logo_url(),
+        'logo'       => sl_logo_url(),
         'priceRange' => '$$',
         'areaServed' => array_values(array_filter(array_map(function ($s) {
             return array('@type' => 'City', 'name' => $s);

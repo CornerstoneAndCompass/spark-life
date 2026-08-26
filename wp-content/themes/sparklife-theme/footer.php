@@ -18,7 +18,7 @@ $score   = sl_get_var('review_score');
 $name    = sl_get_var('company_name', get_bloginfo('name'));
 $short   = sl_get_var('company_short', $name);
 $region  = sl_get_var('company_region');
-$logo    = SL_URL . '/assets/img/logo.png';
+$logo    = sl_logo_url();
 
 $services = sl_get_services(array('limit' => 6));
 
@@ -104,7 +104,6 @@ $company_links = array(
 </footer>
 
 <?php if ($phone) : ?>
-<!-- Sticky mobile call bar -->
 <a class="callbar" href="tel:<?php echo esc_attr($tel); ?>">
   <?php echo sl_icon('phone', 18); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
   <?php printf(esc_html__('Tap to call %1$s · %2$s', 'sparklife'), esc_html($short), esc_html($phone)); ?>

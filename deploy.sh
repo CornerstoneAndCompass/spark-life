@@ -17,6 +17,10 @@ REMOTE_BASE="${REMOTE_BASE:-wordpress/wp-content}"
 
 command -v lftp >/dev/null || { echo "lftp not installed (brew install lftp)"; exit 1; }
 
+# Rebuild the minified CSS/JS the theme serves. Run every time so the built
+# files can never lag behind the commented sources.
+python3 "$ROOT/tools/build-assets.py"
+
 lftp -u "$SFTP_USER","$SFTP_PASS" -p "$SFTP_PORT" "sftp://$SFTP_HOST" <<EOF
 set sftp:auto-confirm yes
 set net:max-retries 2

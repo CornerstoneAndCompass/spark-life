@@ -13,7 +13,7 @@
  */
 if (!defined('ABSPATH')) exit;
 
-define('SL_VERSION', '1.0.1');
+define('SL_VERSION', '1.0.5');
 define('SL_PATH', get_template_directory());
 define('SL_URL',  get_template_directory_uri());
 
@@ -34,19 +34,32 @@ add_action('after_setup_theme', 'sl_setup');
 /* ─── Assets ────────────────────────────────────────────────── */
 function sl_enqueue() {
     $v = SL_VERSION;
-    wp_enqueue_style('sl-fonts',
-        'https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,500;0,600;0,700;0,800;1,700&family=Inter:wght@400;500;600;700&display=swap',
-        array(), null);
+    // One handle per family, deliberately. The host's asset optimiser rewrites
+    // Google Fonts <link> tags, and it mangles a multi-family css2 URL into a
+    // v1 css? URL keeping only ONE family, which silently dropped Anton and
+    // Archivo and left headings falling back to system-ui. Single-family URLs
+    // survive the rewrite intact.
+    $fonts = array(
+        'sl-font-display' => 'family=Anton',
+        'sl-font-head'    => 'family=Archivo:ital,wght@0,500;0,600;0,700;0,800;1,700',
+        'sl-font-body'    => 'family=Hanken+Grotesk:wght@400;500;600;700',
+    );
+    foreach ($fonts as $handle => $query) {
+        wp_enqueue_style($handle, 'https://fonts.googleapis.com/css2?' . $query . '&display=swap', array(), null);
+    }
     // style.css carries only the theme header; the design system is assets/css/main.css.
+    // The .min files are what ship: a stylesheet is fetched verbatim by the
+    // browser, so build notes in the source would be public. tools/build-assets.py
+    // generates them and deploy.sh runs it, so they cannot drift from source.
     wp_enqueue_style('sl-style', get_stylesheet_uri(), array(), $v);
-    wp_enqueue_style('sl-main', SL_URL . '/assets/css/main.css', array('sl-style'), $v);
-    wp_enqueue_script('sl-main', SL_URL . '/assets/js/main.js', array(), $v, true);
+    wp_enqueue_style('sl-main', SL_URL . '/assets/css/main.min.css', array('sl-style'), $v);
+    wp_enqueue_script('sl-main', SL_URL . '/assets/js/main.min.js', array(), $v, true);
     wp_localize_script('sl-main', 'SPARKLIFE', array('ajax_url' => admin_url('admin-ajax.php')));
 }
 add_action('wp_enqueue_scripts', 'sl_enqueue');
 
 function sl_head_meta() {
-    $icon = SL_URL . '/assets/img/logo.png';
+    $icon = sl_logo_url();
     echo '<link rel="icon" type="image/png" href="' . esc_url($icon) . '">' . "\n";
     echo '<link rel="apple-touch-icon" href="' . esc_url($icon) . '">' . "\n";
     echo '<meta name="theme-color" content="#1567E3">' . "\n";
@@ -207,6 +220,16 @@ function sl_highlight($title, $needle = '') {
         return substr_replace($html, $span, $pos, strlen($esc));
     }
     return trim($html . ' ' . $span);
+}
+
+/**
+ * The brand logo URL, cache-busted by the theme version.
+ * The file is referenced from templates as a plain <img src>, with no
+ * wp_enqueue versioning behind it, so without this a browser holding the old
+ * logo would keep serving it after the artwork is replaced.
+ */
+function sl_logo_url() {
+    return SL_URL . '/assets/img/logo.png?v=' . SL_VERSION;
 }
 
 /** Resolve a section URL: '/contact/' → home_url('/contact/'), absolute URLs untouched. */

@@ -27,11 +27,11 @@
   --wrap:1200px;
   --font-display:"Anton",system-ui,sans-serif;
   --font-head:"Archivo",system-ui,sans-serif;
-  --font-body:"Inter",system-ui,sans-serif;
+  --font-body:"Hanken Grotesk",system-ui,sans-serif;
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{
   font-family:var(--font-body);
   color:var(--ink);
@@ -126,7 +126,7 @@ ul,ol{list-style:none}
   letter-spacing:.02em;font-style:italic;color:var(--ink);
   transform:skewX(-4deg);white-space:nowrap;
 }
-.brand__sub{font-size:.66rem;font-weight:700;letter-spacing:.18em;
+.brand__sub{font-size:.7rem;font-weight:700;letter-spacing:.18em;
   text-transform:uppercase;color:var(--blue);margin-top:3px;white-space:nowrap}
 
 .nav{display:flex;align-items:center;gap:6px}
@@ -859,6 +859,14 @@ ul,ol{list-style:none}
   display:block;font-size:.95rem;color:#9aa0ad;margin-bottom:10px;
   font-style:normal;line-height:1.5;
 }
+/* Comfortable tap targets on touch screens. Desktop keeps the tighter list. */
+@media (max-width:760px){
+  .footer__col a{padding:9px 0;margin-bottom:0;min-height:44px;
+    display:flex;align-items:center}
+  .services__note a{display:inline-block;padding:8px 0}
+  .footer__legal a{display:inline-block;padding:10px 6px}
+  .crumbs a,.crumbs span{display:inline-block;padding:6px 0}
+}
 .footer__col a{transition:color .16s}
 .footer__col a:hover{color:var(--blue-lt)}
 .footer__hours{font-size:.95rem;margin-top:6px}
@@ -952,7 +960,7 @@ ul,ol{list-style:none}
   .hero__trust li+li{padding-left:0;border-left:0}
   .svc-card{gap:14px}
   .callbar{display:flex}
-  body{padding-bottom:52px}
+  body{padding-bottom:64px}
 }
 
 @media (max-width:420px){
