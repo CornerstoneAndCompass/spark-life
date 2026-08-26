@@ -81,7 +81,7 @@ function sl_default_vars() {
         'company_short'    => 'Spark Life',
         'company_phone'    => '0402 028 871',
         'company_tel'      => '0402028871',
-        'company_email'    => 'hello@sparklife.com.au',
+        'company_email'    => 'info@spark-life.com.au',
         'company_address'  => '6 Magnolia Court, Frankston, VIC 3199',
         'company_suburb'   => 'Frankston',
         'company_region'   => 'Frankston, Bayside & the Mornington Peninsula',
