@@ -4,8 +4,8 @@
  *
  * Generic and content-agnostic: the active theme supplies the pages, global
  * variables and front-page slug via filters, and this class creates/updates the
- * WordPress pages and their _ccf_sections meta. Running it again is idempotent
- * (pages are matched by slug + parent and updated in place).
+ * WordPress posts and their _ccf_sections meta. Running it again is idempotent
+ * (posts are matched by post type + slug + parent and updated in place).
  *
  * Theme provides:
  *   add_filter('ccf_seed_vars',  fn() => [ 'company_phone' => '…', … ]);
@@ -13,6 +13,15 @@
  *                                            'excerpt'=>'','menu_order'=>0,
  *                                            'sections'=>[ ['type'=>'hero','data'=>[…]], … ] ], … ]);
  *   add_filter('ccf_seed_front', fn() => 'home');
+ *
+ * Each definition may also carry:
+ *   'post_type' => 'service'                      any registered post type; defaults to 'page'
+ *   'seo'       => [ 'title'=>…, 'desc'=>…, 'og_image'=>… ]   → _ccf_seo_* post meta
+ *   'meta'      => [ '_sl_service_icon' => 'switchboard' ]    → arbitrary post meta
+ *   'terms'     => [ 'service_category' => ['Residential'] ]  → taxonomy terms (replaces)
+ *
+ * Meta keys pass through sanitize_key(), so they must be lowercase — a theme
+ * that writes 'Foo' here would have to read '_foo' back.
  */
 if (!defined('ABSPATH')) exit;
 
@@ -42,6 +51,13 @@ class Ccf_Migration {
                     updated <strong><?php echo (int) $report['vars']; ?></strong> global variables.
                     Front page: <strong><?php echo esc_html($report['front']); ?></strong>.
                 </p></div>
+                <?php if (!empty($report['skipped_terms'])) : ?>
+                <div class="notice notice-warning"><p>
+                    These taxonomies are not registered, so their terms were skipped:
+                    <strong><?php echo esc_html(implode(', ', $report['skipped_terms'])); ?></strong>.
+                    Check the theme registers them on <code>init</code>.
+                </p></div>
+                <?php endif; ?>
             <?php endif; ?>
             <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
                 <input type="hidden" name="action" value="ccf_run_seed">
@@ -68,7 +84,7 @@ class Ccf_Migration {
     }
 
     public function seed() {
-        $report = array('vars' => 0, 'pages' => array(), 'front' => '');
+        $report = array('vars' => 0, 'pages' => array(), 'front' => '', 'skipped_terms' => array());
 
         // 1) Global variables
         $vars = apply_filters('ccf_seed_vars', array());
@@ -79,13 +95,16 @@ class Ccf_Migration {
             $report['vars'] = count($vars);
         }
 
-        // 2) Pages (parents before children)
+        // 2) Posts (parents before children)
         $defs = apply_filters('ccf_seed_pages', array());
         if (!is_array($defs)) $defs = array();
         usort($defs, function ($a, $b) {
             return (empty($a['parent']) ? 0 : 1) - (empty($b['parent']) ? 0 : 1);
         });
 
+        // Keyed "post_type:slug", because a page and a CPT entry are allowed to
+        // share a slug and would otherwise overwrite each other here — which
+        // would silently reparent a child, or point the front page at a CPT.
         $id_by_slug = array();
         foreach ($defs as $d) {
             if (empty($d['slug'])) continue;
@@ -93,12 +112,9 @@ class Ccf_Migration {
             // Definitions may target any post type (e.g. a 'service' CPT); pages
             // remain the default so existing themes are unaffected.
             $post_type = !empty($d['post_type']) ? sanitize_key($d['post_type']) : 'page';
-            $parent_id = 0;
-            if (!empty($d['parent'])) {
-                $pslug = sanitize_title($d['parent']);
-                $parent_id = isset($id_by_slug[$pslug]) ? $id_by_slug[$pslug] : $this->find_page($pslug, 0, $post_type);
-            }
-            $existing = $this->find_page($slug, $parent_id, $post_type);
+            $parent_id = !empty($d['parent']) ? $this->find_parent(sanitize_title($d['parent']), $post_type, $id_by_slug) : 0;
+
+            $existing = $this->find_post($slug, $parent_id, $post_type);
             $postarr = array(
                 'post_type'    => $post_type,
                 'post_title'   => isset($d['title']) ? $d['title'] : ucwords(str_replace('-', ' ', $slug)),
@@ -133,23 +149,26 @@ class Ccf_Migration {
             }
 
             // Taxonomy terms, keyed by taxonomy: [ 'service_category' => ['Residential'] ].
+            // An unregistered taxonomy drops every term silently, so it is reported.
             if (!empty($d['terms']) && is_array($d['terms'])) {
                 foreach ($d['terms'] as $tax => $terms) {
                     if (taxonomy_exists($tax)) {
                         wp_set_object_terms($pid, (array) $terms, $tax, false);
+                    } elseif (!in_array($tax, $report['skipped_terms'], true)) {
+                        $report['skipped_terms'][] = $tax;
                     }
                 }
             }
 
-            $id_by_slug[$slug] = $pid;
+            $id_by_slug[$post_type . ':' . $slug] = $pid;
             $report['pages'][] = $slug;
         }
 
-        // 3) Static front page
+        // 3) Static front page — always a page, never a CPT entry.
         $front = sanitize_title(apply_filters('ccf_seed_front', 'home'));
-        if (isset($id_by_slug[$front])) {
+        if (isset($id_by_slug['page:' . $front])) {
             update_option('show_on_front', 'page');
-            update_option('page_on_front', $id_by_slug[$front]);
+            update_option('page_on_front', $id_by_slug['page:' . $front]);
             $report['front'] = $front;
         }
 
@@ -164,7 +183,25 @@ class Ccf_Migration {
         return $report;
     }
 
-    private function find_page($slug, $parent_id = 0, $post_type = 'page') {
+    /**
+     * Resolve a definition's 'parent' slug to a post ID.
+     *
+     * Prefers something seeded earlier in this same run, then falls back to the
+     * database. A parent of the child's own type is tried first (hierarchical
+     * CPTs), then a page — the only two shapes a seed definition can express.
+     */
+    private function find_parent($parent_slug, $post_type, $id_by_slug) {
+        foreach (array_unique(array($post_type, 'page')) as $ptype) {
+            if (isset($id_by_slug[$ptype . ':' . $parent_slug])) {
+                return $id_by_slug[$ptype . ':' . $parent_slug];
+            }
+            $found = $this->find_post($parent_slug, 0, $ptype);
+            if ($found) return $found;
+        }
+        return 0;
+    }
+
+    private function find_post($slug, $parent_id = 0, $post_type = 'page') {
         $args = array(
             'post_type'   => $post_type,
             'name'        => $slug,

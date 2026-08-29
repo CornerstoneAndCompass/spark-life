@@ -136,14 +136,20 @@ Also outstanding:
 - **Form delivery.** CC Fields emails via `wp_mail()`. Confirm the host sends mail reliably,
   or point it at an SMTP service.
 
-## CC Fields changes made here
+## CC Fields changes
 
-The seeder gained three generic capabilities, needed to seed a custom post type. Bumped to
-**1.1.1** — worth folding back into the central `cc-fields` repo:
+The seeder gained the capabilities needed to seed a custom post type, released as
+**1.1.1**. These now live in the central `cc-fields` repo, so the copy here is identical
+to what the update channel ships and an auto-update will not overwrite them:
 
 - `post_type` per definition (defaults to `page`), so CPTs can be seeded alongside pages
 - `seo` block → `_ccf_seo_*` post meta (this already existed in the Call The Plumber Guy copy)
 - `meta` and `terms` blocks → arbitrary post meta and taxonomy terms
+- seeded posts are tracked per post type, so a page and a CPT entry sharing a slug no
+  longer overwrite each other (previously a `service` named `home` would have become the
+  site's front page)
+- an unregistered taxonomy is reported in the seed result instead of silently dropping
+  its terms
 
 ## Local development
 

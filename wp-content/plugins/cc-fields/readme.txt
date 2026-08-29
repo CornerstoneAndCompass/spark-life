@@ -14,6 +14,8 @@ Lightweight page-section builder and global site variables. Cornerstone & Compas
 * Seeder: definitions can target any post type via `post_type` (defaults to `page`), so custom post types such as Services can be seeded alongside pages
 * Seeder: `seo` block writes `_ccf_seo_*` post meta (per-page title / description / OG image)
 * Seeder: `meta` and `terms` blocks write arbitrary post meta and taxonomy terms
+* Seeder: seeded posts are tracked per post type, so a page and a CPT entry sharing a slug no longer overwrite each other
+* Seeder: an unregistered taxonomy is reported instead of silently dropping its terms
 
 = 1.1.0 =
 * Auto-updates from the MyMomo private update channel
