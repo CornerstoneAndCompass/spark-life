@@ -194,6 +194,25 @@ function sl_seo_head() {
         '</script>' . "\n";
 }
 
+/* ─── Sitemap status ────────────────────────────────────────────
+ * WordPress matches the wp-sitemap rewrite rules and renders the XML, but the
+ * main query finds no posts so handle_404() has already stamped the response
+ * 404 by the time the sitemap renders. The body is correct and the status is
+ * wrong, which is the worst combination: Google refuses a sitemap that 404s,
+ * so the whole site would stay unsubmitted.
+ *
+ * Runs before the sitemap renderer (priority 0 on template_redirect) and both
+ * clears the 404 flag and re-stamps the status, since headers are still
+ * buffered at this point.
+ */
+add_action('template_redirect', function () {
+    if (get_query_var('sitemap') || get_query_var('sitemap-stylesheet')) {
+        global $wp_query;
+        $wp_query->is_404 = false;
+        status_header(200);
+    }
+}, 0);
+
 /* ─── Legacy URL redirects ──────────────────────────────────────
  * The static demo linked to /services/ style paths; anything that used to sit
  * under /service/ (WordPress's default CPT slug) is folded into /services/.
