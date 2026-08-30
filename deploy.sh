@@ -11,6 +11,19 @@ ENV_FILE="${1:?usage: deploy.sh /path/to/sftp.env}"
 # shellcheck disable=SC1090
 source "$ENV_FILE"
 
+
+# Refuse to deploy to the wrong site. The WPStaq SFTP username is the site
+# identifier, and this value is hardcoded here rather than read from the env
+# file, so a wrong or copied sftp.env cannot defeat it. Fails closed: if this
+# ever needs changing, change it deliberately.
+EXPECTED_USER="sparklife"
+if [ "${SFTP_USER:-}" != "$EXPECTED_USER" ]; then
+  echo "REFUSING TO DEPLOY." >&2
+  echo "  env file points at SFTP user '${SFTP_USER:-<unset>}'" >&2
+  echo "  this repo deploys to        '$EXPECTED_USER'" >&2
+  echo "  Check which sftp.env you passed." >&2
+  exit 1
+fi
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 LOCAL="$ROOT/wp-content"
 REMOTE_BASE="${REMOTE_BASE:-wordpress/wp-content}"
