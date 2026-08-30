@@ -13,7 +13,7 @@
  */
 if (!defined('ABSPATH')) exit;
 
-define('SL_VERSION', '1.0.5');
+define('SL_VERSION', '1.0.6');
 define('SL_PATH', get_template_directory());
 define('SL_URL',  get_template_directory_uri());
 
@@ -58,13 +58,29 @@ function sl_enqueue() {
 }
 add_action('wp_enqueue_scripts', 'sl_enqueue');
 
+/**
+ * The browser-tab icon. Deliberately NOT the full logo: the badge's wordmark
+ * is unreadable once it is squeezed into 16px, so this is a crop of the
+ * character on its own, which still reads at tab size.
+ */
+function sl_favicon_url() {
+    return SL_URL . '/assets/img/favicon.png?v=' . SL_VERSION;
+}
+
 function sl_head_meta() {
-    $icon = sl_logo_url();
-    echo '<link rel="icon" type="image/png" href="' . esc_url($icon) . '">' . "\n";
+    $icon = sl_favicon_url();
+    echo '<link rel="icon" type="image/png" sizes="256x256" href="' . esc_url($icon) . '">' . "\n";
     echo '<link rel="apple-touch-icon" href="' . esc_url($icon) . '">' . "\n";
     echo '<meta name="theme-color" content="#1567E3">' . "\n";
 }
 add_action('wp_head', 'sl_head_meta', 2);
+
+/**
+ * /favicon.ico is served as a real file from the web root, not through
+ * WordPress: this host's nginx answers that path itself and never reaches PHP,
+ * so a template_redirect hook here would never fire. deploy.sh uploads
+ * assets/img/favicon.ico to the root for exactly that reason.
+ */
 
 /* ─── Google Analytics 4 ────────────────────────────────────────
  * Set the measurement ID in CC Fields → Global Variables (ga4_id).
