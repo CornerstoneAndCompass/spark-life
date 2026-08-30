@@ -18,7 +18,9 @@ $is_ink      = ($bg === 'ink');
 $eyebrow_cls = 'eyebrow' . ($is_ink ? ' eyebrow--lime' : '');
 $title_cls   = 'section-title' . ($is_ink ? ' section-title--light' : '');
 
-// Global phone for the call button (build.py hardcodes "Check your suburb — {PHONE}").
+// Global phone for the call button. House style is no em dashes in copy, so
+// the separator here is a comma; a site wanting different wording overrides
+// this template from its theme rather than editing the plugin.
 $company_phone = ccf_get_var('company_phone');
 $company_tel   = ccf_get_var('company_tel');
 $tel_href      = 'tel:' . preg_replace('/[^0-9+]/', '', $company_tel);
@@ -41,7 +43,7 @@ if ($intro === '')   { $intro = "We look after residential and commercial proper
       <p class="areas__lead"><?php echo esc_html($intro); ?></p>
       <?php endif; ?>
       <?php if ($company_phone !== '') : ?>
-      <a class="btn btn--primary" href="<?php echo esc_attr($tel_href); ?>">Check your suburb &mdash; <?php echo esc_html($company_phone); ?></a>
+      <a class="btn btn--primary" href="<?php echo esc_attr($tel_href); ?>">Check your suburb, <?php echo esc_html($company_phone); ?></a>
       <?php endif; ?>
     </div>
     <div class="areas__cols reveal">

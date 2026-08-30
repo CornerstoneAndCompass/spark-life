@@ -3,7 +3,7 @@
  * Plugin Name:       CC Fields
  * Plugin URI:        https://cornerstoneandcompass.com/plugins/cc-fields
  * Description:       Lightweight page-section builder and global site variables — Cornerstone & Compass's in-house alternative to ACF. Section types are defined per-site in includes/class-cc-sections.php; page content is seeded from the active theme via the ccf_seed_pages filter.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            Cornerstone & Compass
  * Author URI:        https://cornerstoneandcompass.com
  * License:           GPL v2 or later
@@ -12,7 +12,7 @@
 
 if (!defined('ABSPATH')) exit;
 
-define('CCF_VERSION', '1.1.1');
+define('CCF_VERSION', '1.1.2');
 define('CCF_PATH', plugin_dir_path(__FILE__));
 define('CCF_URL', plugin_dir_url(__FILE__));
 

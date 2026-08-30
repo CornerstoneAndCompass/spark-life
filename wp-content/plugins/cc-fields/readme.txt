@@ -3,12 +3,15 @@ Contributors: Cornerstone & Compass
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPL v2 or later
 
 Lightweight page-section builder and global site variables. Cornerstone & Compass's in-house alternative to ACF.
 
 == Changelog ==
+
+= 1.1.2 =
+* service_areas: the call button reads "Check your suburb, {phone}" instead of using an em dash, matching house copy style
 
 = 1.1.1 =
 * Seeder: definitions can target any post type via `post_type` (defaults to `page`), so custom post types such as Services can be seeded alongside pages
