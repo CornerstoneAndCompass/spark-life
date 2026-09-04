@@ -212,6 +212,23 @@ function sl_seo_head() {
         '</script>' . "\n";
 }
 
+/* ─── Sitemap: only advertise indexable URLs ────────────────────────
+ * The MyMomo connector noindexes every taxonomy archive (voa_noindex_thin_archives),
+ * treating them as thin listing pages, but WordPress core still lists them in
+ * wp-sitemap.xml. That contradiction is visible to Google: the sitemap asks it
+ * to index four /service-category/ URLs whose own markup says noindex, and
+ * Search Console rejects an indexing request for them on exactly that basis.
+ *
+ * Nothing on the site links to those archives either, so they are dropped from
+ * the sitemap rather than un-noindexed. If they are ever wanted as real landing
+ * pages they need unique copy and internal links first, at which point this
+ * filter and the connector's rule both need revisiting.
+ */
+add_filter('wp_sitemaps_taxonomies', function ($taxonomies) {
+    unset($taxonomies['service_category']);
+    return $taxonomies;
+});
+
 /* ─── Sitemap status ────────────────────────────────────────────
  * WordPress matches the wp-sitemap rewrite rules and renders the XML, but the
  * main query finds no posts so handle_404() has already stamped the response
