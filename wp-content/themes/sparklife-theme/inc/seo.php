@@ -66,12 +66,30 @@ function sl_seo_head() {
 
     $name  = sl_get_var('company_name', get_bloginfo('name'));
     $home  = home_url('/');
-    $url   = is_front_page() ? $home : ($singular ? get_permalink($pid) : $home);
+    // Canonical. Falling back to the home URL for everything non-singular was
+    // wrong: it told Google every term archive was a duplicate of the home page,
+    // so those URLs were never indexed. Term archives are self-referencing now,
+    // and anything genuinely without a stable URL (search, 404) still falls back.
+    $url = $home;
+    if ($singular && !is_front_page()) {
+        $url = get_permalink($pid);
+    } elseif (is_tax() || is_category() || is_tag()) {
+        $term_link = get_term_link(get_queried_object());
+        if (!is_wp_error($term_link)) {
+            $url = $term_link;
+        }
+    }
     $title = wp_get_document_title();
 
-    $desc = $singular ? sl_seo('desc') : get_bloginfo('description');
+    $desc = $singular ? sl_seo('desc') : '';
     if ($desc === '' && $singular) {
         $desc = wp_strip_all_tags(get_the_excerpt($pid));
+    }
+    if ($desc === '' && (is_tax() || is_category() || is_tag())) {
+        $desc = wp_strip_all_tags(term_description());
+    }
+    if ($desc === '') {
+        $desc = get_bloginfo('description');
     }
 
     $img = $singular ? sl_seo('og_image') : '';
