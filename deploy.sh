@@ -40,8 +40,8 @@ set net:max-retries 2
 set net:timeout 25
 set mirror:parallel-transfer-count 4
 mirror -R --no-perms --overwrite --verbose --exclude-glob .DS_Store "$LOCAL/themes/sparklife-theme/" "$REMOTE_BASE/themes/sparklife-theme/"
-mirror -R --no-perms --overwrite --verbose --exclude-glob .DS_Store "$LOCAL/plugins/cc-fields/" "$REMOTE_BASE/plugins/cc-fields/"
-mirror -R --no-perms --overwrite --verbose --exclude-glob .DS_Store "$LOCAL/plugins/virtual-office-ai-connector/" "$REMOTE_BASE/plugins/virtual-office-ai-connector/"
+mirror -R --no-perms --overwrite --only-newer --verbose --exclude-glob .DS_Store "$LOCAL/plugins/cc-fields/" "$REMOTE_BASE/plugins/cc-fields/"
+mirror -R --no-perms --overwrite --only-newer --verbose --exclude-glob .DS_Store "$LOCAL/plugins/virtual-office-ai-connector/" "$REMOTE_BASE/plugins/virtual-office-ai-connector/"
 put "$LOCAL/themes/sparklife-theme/assets/img/favicon.ico" -o "$(dirname "$REMOTE_BASE")/favicon.ico"
 bye
 EOF

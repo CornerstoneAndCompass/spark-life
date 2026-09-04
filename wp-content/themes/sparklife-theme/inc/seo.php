@@ -229,6 +229,22 @@ add_filter('wp_sitemaps_taxonomies', function ($taxonomies) {
     return $taxonomies;
 });
 
+/*
+ * The same decision, stated to the connector. Connector 1.17.1 stops blanket
+ * noindexing custom taxonomies, so without this the archives would quietly
+ * become indexable again on the next connector update while still being absent
+ * from the sitemap. Opting in keeps both halves deliberate and matching. Harmless
+ * on 1.16.x, which has no such filter. Remove this and the sitemap filter above
+ * together if these ever become real landing pages.
+ */
+add_filter('voa_thin_archives', function ($thin) {
+    if (!isset($thin['taxonomies']) || !is_array($thin['taxonomies'])) {
+        $thin['taxonomies'] = array();
+    }
+    $thin['taxonomies'][] = 'service_category';
+    return $thin;
+});
+
 /* ─── Sitemap status ────────────────────────────────────────────
  * WordPress matches the wp-sitemap rewrite rules and renders the XML, but the
  * main query finds no posts so handle_404() has already stamped the response
